@@ -1,0 +1,1388 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Alvarez%
+}{%
+Alvarez%
+}{%
+{\protect \APACyear {2004}}%
+}]{%
+alvarez2004residence}
+\APACinsertmetastar {%
+alvarez2004residence}%
+\begin{APACrefauthors}%
+Alvarez, H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2004}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Residence groups among hunter-gatherers: a view of the
+  claims and evidence for patrilocal bands} {Residence groups among
+  hunter-gatherers: a view of the claims and evidence for patrilocal
+  bands}.{\BBCQ}
+\newblock
+\BIn{} B.~Chapais\ \BBA {} C.~Berman\ (\BEDS), \APACrefbtitle {Kinship and
+  behavior in primates} {Kinship and behavior in primates}\ (\BPGS\ 420--442).
+\newblock
+\APACaddressPublisher{}{Oxford University Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Barr%
+, Levy%
+, Scheepers%
+\BCBL {}\ \BBA {} Tily%
+}{%
+Barr%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2013}}%
+}]{%
+barr2013random}
+\APACinsertmetastar {%
+barr2013random}%
+\begin{APACrefauthors}%
+Barr, D.%
+, Levy, R.%
+, Scheepers, C.%
+\BCBL {}\ \BBA {} Tily, H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Random effects structure for confirmatory hypothesis
+  testing: Keep it maximal} {Random effects structure for confirmatory
+  hypothesis testing: Keep it maximal}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Memory and Language}{68}{3}{255--278}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Bates%
+, Maechler%
+\BCBL {}\ \BBA {} Bolker%
+}{%
+Bates%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2011}}%
+}]{%
+bates2011lmer}
+\APACinsertmetastar {%
+bates2011lmer}%
+\begin{APACrefauthors}%
+Bates, D.%
+, Maechler, M.%
+\BCBL {}\ \BBA {} Bolker, B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {lme4: Linear mixed-effects models using S4 classes.}
+  {lme4: Linear mixed-effects models using s4 classes.}{\BBCQ}\
+  [\bibcomputersoftwaremanual].
+\newblock
+\begin{APACrefURL} \url{http://CRAN.R-project.org/} \end{APACrefURL}
+\newblock
+\APACrefnote{R package version 0.999375-42}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Bereczei%
+\ \BBA {} Dunbar%
+}{%
+Bereczei%
+\ \BBA {} Dunbar%
+}{%
+{\protect \APACyear {2002}}%
+}]{%
+Bereczei2002helping}
+\APACinsertmetastar {%
+Bereczei2002helping}%
+\begin{APACrefauthors}%
+Bereczei, T.%
+\BCBT {}\ \BBA {} Dunbar, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2002}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Helping-at-the-Nest and Sex-Biased Parental Investment
+  in a {H}ungarian {G}ypsy Population} {Helping-at-the-nest and sex-biased
+  parental investment in a {H}ungarian {G}ypsy population}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Current Anthropology}{43}{5}{804--809}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Bereczkei%
+\ \BBA {} Dunbar%
+}{%
+Bereczkei%
+\ \BBA {} Dunbar%
+}{%
+{\protect \APACyear {2002}}%
+}]{%
+dunbar2002helping}
+\APACinsertmetastar {%
+dunbar2002helping}%
+\begin{APACrefauthors}%
+Bereczkei, T.%
+\BCBT {}\ \BBA {} Dunbar, R\BPBI E\BPBI M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2002}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Helping-at-the-Nest and Sex-Biased Parental Investment
+  in a {H}ungarian {G}ypsy Population} {Helping-at-the-nest and sex-biased
+  parental investment in a {H}ungarian {G}ypsy population}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Current Anthropology}{43}{5}{804--809}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Blurton~Jones%
+, Hawkes%
+\BCBL {}\ \BBA {} OConnell%
+}{%
+Blurton~Jones%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2005}}%
+}]{%
+jones2005hadza}
+\APACinsertmetastar {%
+jones2005hadza}%
+\begin{APACrefauthors}%
+Blurton~Jones, N.%
+, Hawkes, K.%
+\BCBL {}\ \BBA {} OConnell, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2005}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{H}adza grandmothers as helpers: residence data}
+  {{H}adza grandmothers as helpers: residence data}.{\BBCQ}
+\newblock
+\BIn{} E.~Voland, A.~Chasiotis\BCBL {}\ \BBA {} W.~Schiefenhovel\ (\BEDS),
+  \APACrefbtitle {Grandmotherhood: The evolutionary significance of the second
+  half of female life} {Grandmotherhood: The evolutionary significance of the
+  second half of female life}\ (\BPGS\ 160--176).
+\newblock
+\APACaddressPublisher{}{Rutgers University Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Bollig%
+}{%
+Bollig%
+}{%
+{\protect \APACyear {2004}}%
+}]{%
+bollig2004hunters}
+\APACinsertmetastar {%
+bollig2004hunters}%
+\begin{APACrefauthors}%
+Bollig, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2004}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Hunters, foragers, and singing Smiths: The metamorphoses
+  of peripatetic peoples in {A}frica} {Hunters, foragers, and singing smiths:
+  The metamorphoses of peripatetic peoples in {A}frica}.{\BBCQ}
+\newblock
+\BIn{} J.~Berland\ \BBA {} A.~Rao\ (\BEDS), \APACrefbtitle {Customary
+  Strangers. New Perspectives on Peripatetic Peoples in the {M}iddle {E}ast,
+  {A}frica, and {A}sia.} {Customary strangers. new perspectives on peripatetic
+  peoples in the {M}iddle {E}ast, {A}frica, and {A}sia.}
+\newblock
+\APACaddressPublisher{}{Praeger}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Bollig%
+}{%
+Bollig%
+}{%
+{\protect \APACyear {2006}}%
+}]{%
+bollig2006risk}
+\APACinsertmetastar {%
+bollig2006risk}%
+\begin{APACrefauthors}%
+Bollig, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2006}.
+\newblock
+\APACrefbtitle {Risk management in a hazardous environment: A comparative study
+  of two pastoral societies} {Risk management in a hazardous environment: A
+  comparative study of two pastoral societies}.
+\newblock
+\APACaddressPublisher{}{Springer New York, New York, USA}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Bove%
+, Valeggia%
+\BCBL {}\ \BBA {} Ellison%
+}{%
+Bove%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2002}}%
+}]{%
+bove2002girl}
+\APACinsertmetastar {%
+bove2002girl}%
+\begin{APACrefauthors}%
+Bove, R.%
+, Valeggia, C.%
+\BCBL {}\ \BBA {} Ellison, P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2002}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Girl helpers and time allocation of nursing women among
+  the {T}oba of {A}rgentina} {Girl helpers and time allocation of nursing women
+  among the {T}oba of {A}rgentina}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Human Nature}{13}{4}{457--472}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Crittenden%
+\ \BBA {} Marlowe%
+}{%
+Crittenden%
+\ \BBA {} Marlowe%
+}{%
+{\protect \APACyear {2008}}%
+}]{%
+crittenden2008allomaternal}
+\APACinsertmetastar {%
+crittenden2008allomaternal}%
+\begin{APACrefauthors}%
+Crittenden, A.%
+\BCBT {}\ \BBA {} Marlowe, F.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2008}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Allomaternal care among the {H}adza of {T}anzania}
+  {Allomaternal care among the {H}adza of {T}anzania}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Human Nature}{19}{3}{249--262}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Crognier%
+, Baali%
+\BCBL {}\ \BBA {} Hilali%
+}{%
+Crognier%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2001}}%
+}]{%
+crognier2001helpers}
+\APACinsertmetastar {%
+crognier2001helpers}%
+\begin{APACrefauthors}%
+Crognier, E.%
+, Baali, A.%
+\BCBL {}\ \BBA {} Hilali, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2001}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Do ``helpers at the nest'' increase their parents'
+  reproductive success?} {Do ``helpers at the nest'' increase their parents'
+  reproductive success?}{\BBCQ}
+\newblock
+\APACjournalVolNumPages{American Journal of Human Biology}{13}{3}{365--373}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Denham%
+}{%
+Denham%
+}{%
+{\protect \APACyear {1974}}%
+}]{%
+denham1974infant}
+\APACinsertmetastar {%
+denham1974infant}%
+\begin{APACrefauthors}%
+Denham, W.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1974}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Infant Transport among the {A}lyawara {T}ribe, {C}entral
+  {A}ustralia} {Infant transport among the {A}lyawara {T}ribe, {C}entral
+  {A}ustralia}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Oceania}{44}{4}{253--277}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+DeVore%
+\ \BBA {} Lee%
+}{%
+DeVore%
+\ \BBA {} Lee%
+}{%
+{\protect \APACyear {1968}}%
+}]{%
+devore1968man}
+\APACinsertmetastar {%
+devore1968man}%
+\begin{APACrefauthors}%
+DeVore, I.%
+\BCBT {}\ \BBA {} Lee, R\BPBI B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1968}.
+\newblock
+\APACrefbtitle {Man the hunter} {Man the hunter}.
+\newblock
+\APACaddressPublisher{}{Aldine Publishing Company}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Divale%
+}{%
+Divale%
+}{%
+{\protect \APACyear {1974}}%
+}]{%
+divale1974migration}
+\APACinsertmetastar {%
+divale1974migration}%
+\begin{APACrefauthors}%
+Divale, W\BPBI T.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1974}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Migration, external warfare, and matrilocal residence}
+  {Migration, external warfare, and matrilocal residence}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Cross-Cultural Research}{9}{2}{75--133}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Elman%
+}{%
+Elman%
+}{%
+{\protect \APACyear {1962}}%
+}]{%
+elman1962primitive}
+\APACinsertmetastar {%
+elman1962primitive}%
+\begin{APACrefauthors}%
+Elman, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1962}.
+\newblock
+\APACrefbtitle {Primitive social organization: An evolutionary perspective}
+  {Primitive social organization: An evolutionary perspective}.
+\newblock
+\APACaddressPublisher{}{Random House}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+C.~Ember%
+\ \BBA {} Ember%
+}{%
+C.~Ember%
+\ \BBA {} Ember%
+}{%
+{\protect \APACyear {1972}}%
+}]{%
+ember1972conditions}
+\APACinsertmetastar {%
+ember1972conditions}%
+\begin{APACrefauthors}%
+Ember, C.%
+\BCBT {}\ \BBA {} Ember, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1972}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The conditions favoring multilocal residence} {The
+  conditions favoring multilocal residence}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Southwestern Journal of Anthropology}{28}{4}{382--400}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+M.~Ember%
+\ \BBA {} Ember%
+}{%
+M.~Ember%
+\ \BBA {} Ember%
+}{%
+{\protect \APACyear {1971}}%
+}]{%
+ember1971conditions}
+\APACinsertmetastar {%
+ember1971conditions}%
+\begin{APACrefauthors}%
+Ember, M.%
+\BCBT {}\ \BBA {} Ember, C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1971}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The conditions favoring matrilocal versus patrilocal
+  residence} {The conditions favoring matrilocal versus patrilocal
+  residence}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{American Anthropologist}{73}{3}{571--594}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Estermann%
+}{%
+Estermann%
+}{%
+{\protect \APACyear {1976}}%
+}]{%
+estermann1976ethnography}
+\APACinsertmetastar {%
+estermann1976ethnography}%
+\begin{APACrefauthors}%
+Estermann, C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1976}.
+\newblock
+\APACrefbtitle {The Ethnography of {S}outhwestern {A}ngola: The non-{B}antu
+  peoples. The {A}mbo ethnic group} {The ethnography of {S}outhwestern
+  {A}ngola: The non-{B}antu peoples. the {A}mbo ethnic group}\ (\BVOL~1).
+\newblock
+\APACaddressPublisher{}{Africana Pub.}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Euler%
+\ \BBA {} Weitzel%
+}{%
+Euler%
+\ \BBA {} Weitzel%
+}{%
+{\protect \APACyear {1996}}%
+}]{%
+euler1996discriminative}
+\APACinsertmetastar {%
+euler1996discriminative}%
+\begin{APACrefauthors}%
+Euler, H.%
+\BCBT {}\ \BBA {} Weitzel, B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1996}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Discriminative grandparental solicitude as reproductive
+  strategy} {Discriminative grandparental solicitude as reproductive
+  strategy}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Human Nature}{7}{1}{39--59}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Hames%
+}{%
+Hames%
+}{%
+{\protect \APACyear {1988}}%
+}]{%
+hames1988allocation}
+\APACinsertmetastar {%
+hames1988allocation}%
+\begin{APACrefauthors}%
+Hames, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1988}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The allocation of parental care among the {Y}ekwana}
+  {The allocation of parental care among the {Y}ekwana}.{\BBCQ}
+\newblock
+\BIn{} L.~Betzig, M.~Borgerhoff~Mulder\BCBL {}\ \BBA {} P.~Turke\ (\BEDS),
+  \APACrefbtitle {Human Reproductive Behaviour} {Human reproductive behaviour}\
+  (\BPGS\ 237--251).
+\newblock
+\APACaddressPublisher{}{Cambridge University Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Hames%
+\ \BBA {} Draper%
+}{%
+Hames%
+\ \BBA {} Draper%
+}{%
+{\protect \APACyear {2004}}%
+}]{%
+hames2004women}
+\APACinsertmetastar {%
+hames2004women}%
+\begin{APACrefauthors}%
+Hames, R.%
+\BCBT {}\ \BBA {} Draper, P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2004}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Womens work, child care, and helpers-at-the-nest in a
+  hunter-gatherer society} {Womens work, child care, and helpers-at-the-nest
+  in a hunter-gatherer society}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Human Nature}{15}{4}{319--341}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Hawkes%
+, O'Connell%
+\BCBL {}\ \BBA {} Blurton~Jones%
+}{%
+Hawkes%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {1997}}%
+}]{%
+hawkes1997hadza}
+\APACinsertmetastar {%
+hawkes1997hadza}%
+\begin{APACrefauthors}%
+Hawkes, K.%
+, O'Connell, J.%
+\BCBL {}\ \BBA {} Blurton~Jones, N.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1997}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{H}adza women's time allocation, offspring provisioning,
+  and the evolution of long postmenopausal life spans} {{H}adza women's time
+  allocation, offspring provisioning, and the evolution of long postmenopausal
+  life spans}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Current Anthropology}{38}{4}{551--577}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Hill%
+\ \protect \BOthers {.}}{%
+Hill%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2011}}%
+{\protect \APACexlab {{\protect \BCnt {1}}}}}]{%
+hill2011co}
+\APACinsertmetastar {%
+hill2011co}%
+\begin{APACrefauthors}%
+Hill, K.%
+, Walker, R.%
+, Bo{\v{z}}i{\v{c}}evi{\'c}, M.%
+, Eder, J.%
+, Headland, T.%
+, Hewlett, B.%
+\BDBL {}Wood, B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011{\protect \BCnt {1}}}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Co-residence patterns in hunter-gatherer societies show
+  unique human social structure} {Co-residence patterns in hunter-gatherer
+  societies show unique human social structure}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Science}{331}{6022}{1286--1289}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Hill%
+\ \protect \BOthers {.}}{%
+Hill%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2011}}%
+{\protect \APACexlab {{\protect \BCnt {2}}}}}]{%
+hill2011co_sup}
+\APACinsertmetastar {%
+hill2011co_sup}%
+\begin{APACrefauthors}%
+Hill, K.%
+, Walker, R.%
+, Bo{\v{z}}i{\v{c}}evi{\'c}, M.%
+, Eder, J.%
+, Headland, T.%
+, Hewlett, B.%
+\BDBL {}Wood, B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011{\protect \BCnt {2}}}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Co-residence patterns in hunter-gatherer societies show
+  unique human social structure} {Co-residence patterns in hunter-gatherer
+  societies show unique human social structure}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Science}{331}{6022(Supplemental
+  materials)}{1286--1289}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Hrdy%
+}{%
+Hrdy%
+}{%
+{\protect \APACyear {2007}}%
+}]{%
+hrdy2007evolutionary}
+\APACinsertmetastar {%
+hrdy2007evolutionary}%
+\begin{APACrefauthors}%
+Hrdy, S\BPBI B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2007}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Evolutionary context of human development. The
+  cooperative breeding model} {Evolutionary context of human development. the
+  cooperative breeding model}.{\BBCQ}
+\newblock
+\BIn{} C.~Salmon\ \BBA {} T.~Shackelford\ (\BEDS), \APACrefbtitle {Family
+  Relationships: An Evolutionary Perspective} {Family relationships: An
+  evolutionary perspective}\ (\BPGS\ 39--68).
+\newblock
+\APACaddressPublisher{New York, NY}{Oxford University Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Ivey%
+}{%
+Ivey%
+}{%
+{\protect \APACyear {2000}}%
+}]{%
+ivey2000cooperative}
+\APACinsertmetastar {%
+ivey2000cooperative}%
+\begin{APACrefauthors}%
+Ivey, P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2000}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Cooperative Reproduction in {I}turi {F}orest
+  Hunter-Gatherers: Who Cares for {E}fe Infants? 1} {Cooperative reproduction
+  in {I}turi {F}orest hunter-gatherers: Who cares for {E}fe infants? 1}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Current Anthropology}{41}{5}{856--866}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Korotayev%
+}{%
+Korotayev%
+}{%
+{\protect \APACyear {2003}}%
+}]{%
+korotayev2003division}
+\APACinsertmetastar {%
+korotayev2003division}%
+\begin{APACrefauthors}%
+Korotayev, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2003}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Division of labor by gender and postmarital residence in
+  cross-cultural perspective: A reconsideration} {Division of labor by gender
+  and postmarital residence in cross-cultural perspective: A
+  reconsideration}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Cross-Cultural Research}{37}{4}{335--372}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Kramer%
+}{%
+Kramer%
+}{%
+{\protect \APACyear {1982}}%
+}]{%
+lee1982politics}
+\APACinsertmetastar {%
+lee1982politics}%
+\begin{APACrefauthors}%
+Kramer, K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1982}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Politics, sexual and non-sexual, in an egalitarian
+  society} {Politics, sexual and non-sexual, in an egalitarian society}.{\BBCQ}
+\newblock
+\BIn{} E.~Leacock\ \BBA {} R.~Lee\ (\BEDS), \APACrefbtitle {Politics and
+  history in band societies} {Politics and history in band societies}\ (\BPGS\
+  37--59).
+\newblock
+\APACaddressPublisher{}{Cambridge University Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Kramer%
+}{%
+Kramer%
+}{%
+{\protect \APACyear {2004}}%
+}]{%
+kramer2004reconsidering}
+\APACinsertmetastar {%
+kramer2004reconsidering}%
+\begin{APACrefauthors}%
+Kramer, K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2004}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Reconsidering the cost of childbearing: the timing of
+  childrens helping behavior across the life cycle of {M}aya families}
+  {Reconsidering the cost of childbearing: the timing of childrens helping
+  behavior across the life cycle of {M}aya families}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Research in Economic Anthropology}{23}{}{335--353}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Kramer%
+}{%
+Kramer%
+}{%
+{\protect \APACyear {2005}}%
+}]{%
+kramer2005children}
+\APACinsertmetastar {%
+kramer2005children}%
+\begin{APACrefauthors}%
+Kramer, K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2005}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Children's help and the pace of reproduction:
+  cooperative breeding in humans} {Children's help and the pace of
+  reproduction: cooperative breeding in humans}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Evolutionary Anthropology: Issues, News, and
+  Reviews}{14}{6}{224--237}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Kramer%
+}{%
+Kramer%
+}{%
+{\protect \APACyear {2010}}%
+}]{%
+kramer2010cooperative}
+\APACinsertmetastar {%
+kramer2010cooperative}%
+\begin{APACrefauthors}%
+Kramer, K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2010}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Cooperative breeding and its significance to the
+  demographic success of humans} {Cooperative breeding and its significance to
+  the demographic success of humans}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Annual Review of Anthropology}{39}{}{417--436}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Lee%
+}{%
+Lee%
+}{%
+{\protect \APACyear {1972}}%
+}]{%
+lee1972kung}
+\APACinsertmetastar {%
+lee1972kung}%
+\begin{APACrefauthors}%
+Lee, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1972}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {!{K}ung spatial organization: An ecological and
+  historical perspective} {!{K}ung spatial organization: An ecological and
+  historical perspective}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Human Ecology}{1}{2}{125--147}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Linton%
+}{%
+Linton%
+}{%
+{\protect \APACyear {1964}}%
+}]{%
+linton1964study}
+\APACinsertmetastar {%
+linton1964study}%
+\begin{APACrefauthors}%
+Linton, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1964}.
+\newblock
+\APACrefbtitle {The study of man} {The study of man}.
+\newblock
+\APACaddressPublisher{}{D. Appleton-Century Co.}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Lippert%
+}{%
+Lippert%
+}{%
+{\protect \APACyear {1931}}%
+}]{%
+lippert1931evolution}
+\APACinsertmetastar {%
+lippert1931evolution}%
+\begin{APACrefauthors}%
+Lippert, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1931}.
+\newblock
+\APACrefbtitle {The evolution of culture} {The evolution of culture}.
+\newblock
+\APACaddressPublisher{}{Macmillian}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Malan%
+}{%
+Malan%
+}{%
+{\protect \APACyear {1974}}%
+}]{%
+malan1974herero}
+\APACinsertmetastar {%
+malan1974herero}%
+\begin{APACrefauthors}%
+Malan, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1974}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The {H}erero-speaking peoples of {K}aokoland} {The
+  {H}erero-speaking peoples of {K}aokoland}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Cimbebasia}{2}{4}{114--125}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Marlowe%
+}{%
+Marlowe%
+}{%
+{\protect \APACyear {2004}}%
+}]{%
+marlowe2004marital}
+\APACinsertmetastar {%
+marlowe2004marital}%
+\begin{APACrefauthors}%
+Marlowe, F.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2004}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Marital residence among foragers} {Marital residence
+  among foragers}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Current Anthropology}{45}{2}{277--284}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Marshall%
+}{%
+Marshall%
+}{%
+{\protect \APACyear {1959}}%
+}]{%
+marshall1959marriage}
+\APACinsertmetastar {%
+marshall1959marriage}%
+\begin{APACrefauthors}%
+Marshall, L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1959}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Marriage among !{K}ung bushmen} {Marriage among !{K}ung
+  bushmen}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{{A}frica}{29}{4}{335--365}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Meehan%
+}{%
+Meehan%
+}{%
+{\protect \APACyear {2005}}%
+}]{%
+meehan2005effects}
+\APACinsertmetastar {%
+meehan2005effects}%
+\begin{APACrefauthors}%
+Meehan, C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2005}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The effects of residential locality on parental and
+  alloparental investment among the {A}ka foragers of the {C}entral {A}frican
+  {R}epublic} {The effects of residential locality on parental and alloparental
+  investment among the {A}ka foragers of the {C}entral {A}frican
+  {R}epublic}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Human Nature}{16}{1}{58--80}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Morgan%
+}{%
+Morgan%
+}{%
+{\protect \APACyear {1851}}%
+}]{%
+morgan1851league}
+\APACinsertmetastar {%
+morgan1851league}%
+\begin{APACrefauthors}%
+Morgan, L\BPBI H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1851}{}{}.
+\newblock
+\APACrefbtitle {League of the {I}roquois. {S}ecaucus.} {League of the
+  {I}roquois. {S}ecaucus.}
+\newblock
+\APACaddressPublisher{New Jersey}{The Citadel Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Murdock%
+}{%
+Murdock%
+}{%
+{\protect \APACyear {1949}}%
+}]{%
+murdock1949social}
+\APACinsertmetastar {%
+murdock1949social}%
+\begin{APACrefauthors}%
+Murdock, G\BPBI P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1949}.
+\newblock
+\APACrefbtitle {Social structure} {Social structure}.
+\newblock
+\APACaddressPublisher{}{Macmillan}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{R}{\ }Core{\ }Team%
+}{%
+{R}{\ }Core{\ }Team%
+}{%
+{\protect \APACyear {2012}}%
+}]{%
+rdevcore}
+\APACinsertmetastar {%
+rdevcore}%
+\begin{APACrefauthors}%
+{R}{\ }Core{\ }Team.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{R}: A Language and Environment for Statistical
+  Computing} {{R}: A language and environment for statistical
+  computing}{\BBCQ}\ [\bibcomputersoftwaremanual].
+\newblock
+\APACaddressPublisher{Vienna, Austria}{}.
+\newblock
+\begin{APACrefURL} \url{http://www.R-project.org/} \end{APACrefURL}
+\newblock
+\APACrefnote{{ISBN} 3-900051-07-0}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Scelza%
+}{%
+Scelza%
+}{%
+{\protect \APACyear {2011}}%
+}]{%
+scelza2011female}
+\APACinsertmetastar {%
+scelza2011female}%
+\begin{APACrefauthors}%
+Scelza, B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Female choice and extra-pair paternity in a traditional
+  human population} {Female choice and extra-pair paternity in a traditional
+  human population}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Biology letters}{7}{6}{889--891}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Schielzeth%
+\ \BBA {} Forstmeier%
+}{%
+Schielzeth%
+\ \BBA {} Forstmeier%
+}{%
+{\protect \APACyear {2009}}%
+}]{%
+schielzeth2009conclusions}
+\APACinsertmetastar {%
+schielzeth2009conclusions}%
+\begin{APACrefauthors}%
+Schielzeth, H.%
+\BCBT {}\ \BBA {} Forstmeier, W.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2009}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Conclusions beyond support: overconfident estimates in
+  mixed models} {Conclusions beyond support: overconfident estimates in mixed
+  models}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Behavioral Ecology}{20}{2}{416--420}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Sear%
+\ \BBA {} Mace%
+}{%
+Sear%
+\ \BBA {} Mace%
+}{%
+{\protect \APACyear {2008}}%
+}]{%
+sear2008keeps}
+\APACinsertmetastar {%
+sear2008keeps}%
+\begin{APACrefauthors}%
+Sear, R.%
+\BCBT {}\ \BBA {} Mace, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2008}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Who keeps children alive? A review of the effects of kin
+  on child survival} {Who keeps children alive? a review of the effects of kin
+  on child survival}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Evolution and Human Behavior}{29}{1}{1--18}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Sear%
+, Mace%
+\BCBL {}\ \BBA {} McGregor%
+}{%
+Sear%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2000}}%
+}]{%
+sear2000maternal}
+\APACinsertmetastar {%
+sear2000maternal}%
+\begin{APACrefauthors}%
+Sear, R.%
+, Mace, R.%
+\BCBL {}\ \BBA {} McGregor, I.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2000}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Maternal grandmothers improve nutritional status and
+  survival of children in rural {G}ambia} {Maternal grandmothers improve
+  nutritional status and survival of children in rural {G}ambia}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Proceedings of the Royal Society of {L}ondon. Series B:
+  Biological Sciences}{267}{1453}{1641--1647}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Turke%
+}{%
+Turke%
+}{%
+{\protect \APACyear {1988}}%
+}]{%
+turke1988helpers}
+\APACinsertmetastar {%
+turke1988helpers}%
+\begin{APACrefauthors}%
+Turke, P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1988}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Helpers at the nest: childcare networks on {I}faluk}
+  {Helpers at the nest: childcare networks on {I}faluk}.{\BBCQ}
+\newblock
+\BIn{} L.~Betzig, M.~Borgerhoff~Mulder\BCBL {}\ \BBA {} P.~Turke\ (\BEDS),
+  \APACrefbtitle {Human Reproductive Behaviour} {Human reproductive behaviour}\
+  (\BPGS\ 173--188).
+\newblock
+\APACaddressPublisher{Cambridge}{Cambridge University Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Tylor%
+}{%
+Tylor%
+}{%
+{\protect \APACyear {1889}}%
+}]{%
+tylor1889method}
+\APACinsertmetastar {%
+tylor1889method}%
+\begin{APACrefauthors}%
+Tylor, E\BPBI B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1889}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {On a method of investigating the development of
+  institutions; applied to laws of marriage and descent} {On a method of
+  investigating the development of institutions; applied to laws of marriage
+  and descent}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{The Journal of the Anthropological Institute of {G}reat
+  {B}ritain and {I}reland}{18}{}{245--272}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Vashro%
+}{%
+Vashro%
+}{%
+{\protect \APACyear {2014}}%
+}]{%
+vashro2014diss}
+\APACinsertmetastar {%
+vashro2014diss}%
+\begin{APACrefauthors}%
+Vashro, L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Beyond ``{T}wa'': An ethnographic account of the {T}we
+  People} {Beyond ``{T}wa'': An ethnographic account of the {T}we
+  people}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Residence and Childcare Assistance among the {T}we}
+  {Residence and childcare assistance among the {T}we}\ (\BPGS\ 3--15).
+\newblock
+\APACaddressPublisher{University of Utah}{Unpublished dissertation}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Voland%
+\ \BBA {} Beise%
+}{%
+Voland%
+\ \BBA {} Beise%
+}{%
+{\protect \APACyear {2002}}%
+}]{%
+voland2002opposite}
+\APACinsertmetastar {%
+voland2002opposite}%
+\begin{APACrefauthors}%
+Voland, E.%
+\BCBT {}\ \BBA {} Beise, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2002}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Opposite effects of maternal and paternal grandmothers
+  on infant survival in historical {K}rummh{\"o}rn} {Opposite effects of
+  maternal and paternal grandmothers on infant survival in historical
+  {K}rummh{\"o}rn}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Behavioral Ecology and Sociobiology}{52}{6}{435--443}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Walker%
+\ \protect \BOthers {.}}{%
+Walker%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2013}}%
+}]{%
+walker2013living}
+\APACinsertmetastar {%
+walker2013living}%
+\begin{APACrefauthors}%
+Walker, R.%
+, Beckerman, S.%
+, Flinn, M.%
+, Gurven, M.%
+, von Rueden, C.%
+, Kramer, K.%
+\BDBL {}Hill, K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Living with kin in lowland horticultural societies}
+  {Living with kin in lowland horticultural societies}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Current Anthropology}{54}{1}{96--103}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Woodburn%
+}{%
+Woodburn%
+}{%
+{\protect \APACyear {1968}}%
+}]{%
+woodburn1968stability}
+\APACinsertmetastar {%
+woodburn1968stability}%
+\begin{APACrefauthors}%
+Woodburn, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1968}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Stability and flexibility in {H}adza residential
+  groupings} {Stability and flexibility in {H}adza residential
+  groupings}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Man the hunter}{}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Zeger%
+, Liang%
+\BCBL {}\ \BBA {} Albert%
+}{%
+Zeger%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {1988}}%
+}]{%
+zeger1988models}
+\APACinsertmetastar {%
+zeger1988models}%
+\begin{APACrefauthors}%
+Zeger, S.%
+, Liang, K\BHBI Y.%
+\BCBL {}\ \BBA {} Albert, P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1988}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Models for longitudinal data: a generalized estimating
+  equation approach} {Models for longitudinal data: a generalized estimating
+  equation approach}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Biometrics}{}{}{1049--1060}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Zeller%
+}{%
+Zeller%
+}{%
+{\protect \APACyear {1987}}%
+}]{%
+zeller1987role}
+\APACinsertmetastar {%
+zeller1987role}%
+\begin{APACrefauthors}%
+Zeller, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1987}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A role for children in hominid evolution} {A role for
+  children in hominid evolution}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Man}{22}{}{528--557}.
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}
