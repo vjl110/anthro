@@ -1,0 +1,43 @@
+#setwd("C:/Users/Chelsea/Dropbox/data/twe_data_16sept2014/October Meeting Data Visualization")
+setwd("C:/Users/Layne Vashro/Dropbox/data/twe_data_16sept2014/October Meeting Data Visualization")
+
+mr <- read.csv('data/twemr.csv')
+corsi <- read.csv('data/twecorsi.csv')
+info <- read.csv('data/tweinfo.csv')
+	
+#####  Combine with information
+
+mr <- merge(mr, info, by = "ID", all.x = T)
+corsi <- merge(corsi, info, by = "ID", all.x = T)
+
+# Plotting
+	# compare distributions for sexes
+library("ggplot2")
+png("mr_sex.png", width=500, height=500, pointsize=12)
+mr$male <- as.factor(mr$male)
+ggplot(mr, aes(x=mr.acc, group=male, fill=male)) + geom_density(alpha = 0.25)
+dev.off()
+
+png("corsi_sex.png", width=500, height=500, pointsize=12)
+corsi$male <- as.factor(corsi$male)
+ggplot(corsi, aes(x=span, group=male, fill=male)) + geom_density(alpha = 0.25)
+dev.off()
+
+	# both sexes over age.
+mr_trunc <- subset(mr, mr.acc > .5)
+png("mr_age.png", width=500, height=500, pointsize=12)
+plot(NULL, xlim = c(15, 75), ylim = c(0.5, 1), xlab = "Age", ylab = "Accuracy", font = 2, font.lab = 2, cex.lab = 1.5)
+mr_trunc <- mr_trunc[order(mr_trunc$age),]
+points(mr_trunc$age[mr_trunc$male == 1], mr_trunc$mr.acc[mr_trunc$male == 1], col = 'blue', cex = 1.5)
+points(mr_trunc$age[mr_trunc$male == 0], mr_trunc$mr.acc[mr_trunc$male == 0], col = 'red', cex = 1.5)
+mr_trunc$lws[mr_trunc$male == 1] <-  predict(loess(mr_trunc$mr.acc[mr_trunc$male == 1] ~ mr_trunc$age[mr_trunc$male == 1], span = 0.9), subset(mr_trunc, male == 1))
+mr_trunc$lws[mr_trunc$male == 0] <-  predict(loess(mr_trunc$mr.acc[mr_trunc$male == 0] ~ mr_trunc$age[mr_trunc$male == 0], span = 0.9), subset(mr_trunc, male == 0))
+lines(mr_trunc$age[mr_trunc$male == 1], mr_trunc$lws[mr_trunc$male == 1], col = 'blue', lwd = 2)
+lines(mr_trunc$age[mr_trunc$male == 0], mr_trunc$lws[mr_trunc$male == 0], col = 'red', lwd = 2)
+
+legend('bottomright',c("Men","Women"), pch=c(16, 16), col=c("blue", "red"), box.lwd = 0, bty = "n", cex = 1.5) # legend to explain the plot.
+dev.off()
+
+
+
+

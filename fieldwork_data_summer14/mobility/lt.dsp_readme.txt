@@ -1,0 +1,35 @@
+dsp1:
+	Where did and your lover first begin courting?
+dsp2:
+	Where was the family or your lover at that time?	
+dsp3:
+	Where was your family at that time?		
+dsp4:
+	Where did you and your lover first begin living together?
+dsp5:
+	Where was the family or your lover at that time?	
+dsp6:
+	Where was your family at that time?		
+
+LT1: orokawe
+LT2: etanga
+LT3: otjihandjavero
+LT4: ohamuheke (sesfontein)
+LT5: omuhonga
+LT6: otjivize
+LT7: ongondjonambadi
+LT8: tazuma 
+LT9: oroundje
+LT10: ohayuua
+LT11: epupa
+LT12: opuwo
+LT13: orotumba
+LT14: otjinungua
+LT15: okanguati
+LT16: otjimuhaka
+LT17: ongokua
+LT18: ehomba
+LT19: ruacana
+LT20: omangete
+
+

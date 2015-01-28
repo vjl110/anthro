@@ -1,0 +1,85 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf200
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+
+\f0\fs24 \cf0 READ ME\
+\
+ID= Subject number\
+Tri1= Trail number 1 (15 trials in total)\
+A1-45:\
+	A1= Calculated error for trial 1\
+	-45= Correct answer \
+\
+\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\'97\
+Code SPSS\
+\
+COMPUTE A145=Tri1 +45.\
+IF (A145 < 0) A145= A145 * -1.\
+EXECUTE.\
+\
+COMPUTE A290=Tri2 +90.\
+IF (A290 < 0) A290= A290 * -1.\
+EXECUTE.\
+\
+COMPUTE A3135=Tri3 +135.\
+IF (A3135 < 0) A3135= A3135 * -1.\
+EXECUTE.\
+\
+COMPUTE A490=Tri4 - 90.\
+IF (A490 < 0) A490= A490 * -1.\
+EXECUTE.\
+\
+IF (Tri5 < 0) A5180= Tri5 * -1.\
+IF (Tri5 > 0) A5180= Tri5.\
+EXECUTE.\
+COMPUTE A5180=A5180 - 180.\
+IF (A5180 < 0) A5180= A5180 * -1.\
+EXECUTE.\
+\
+COMPUTE A6135=Tri6 - 135.\
+IF (A6135 < 0) A6135= A6135 * -1.\
+EXECUTE.\
+\
+COMPUTE A745=Tri7 + 45.\
+IF (A745 < 0) A745= A745 * -1.\
+EXECUTE.\
+\
+COMPUTE A8135=Tri8 - 135.\
+IF (A8135 < 0) A8135= A8135 * -1.\
+EXECUTE.\
+\
+IF (Tri9 < 0) A9180= Tri9 * -1.\
+IF (Tri9 > 0) A9180= Tri9.\
+EXECUTE.\
+COMPUTE A9180=A9180 - 180.\
+IF (A9180 < 0) A9180= A9180 * -1.\
+EXECUTE.\
+\
+COMPUTE A1045=Tri10 - 45.\
+IF (A1045 < 0) A1045= A1045 * -1.\
+EXECUTE.\
+\
+COMPUTE A1190=Tri11 + 90.\
+IF (A1190 < 0) A1190= A1190 * -1.\
+EXECUTE.\
+\
+COMPUTE A1290=Tri12 + 90.\
+IF (A1290 < 0) A1290= A1290 * -1.\
+EXECUTE.\
+\
+COMPUTE A1345=Tri13 - 45.\
+IF (A1345 < 0) A1345= A1345 * -1.\
+EXECUTE.\
+\
+COMPUTE A14135=Tri14 + 135.\
+IF (A14135 < 0) A14135= A14135 * -1.\
+EXECUTE.\
+\
+IF (Tri15 < 0) A15180= Tri15 * -1.\
+IF (Tri15 > 0) A15180= Tri15.\
+EXECUTE.\
+COMPUTE A15180=A15180 - 180.\
+IF (A15180 < 0) A15180= A15180 * -1.\
+EXECUTE.}

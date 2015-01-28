@@ -1,0 +1,21 @@
+Number:80
+Date:8july2014
+Age:28
+Sex:m
+Number of Blocks:1
+ 
+Block 1 
+ 
+Trial     Image   TargetImage  Angle  SubjectResponse  Time 
+  01  Male_Back        Left          240            Left             20.01 
+  02  Male_Back        Right         180            Left             12.62 
+  03  Male_Back        Right         240            Right            5.03 
+  04  Male_Back        Left          120            Left             7.11 
+  05  Male_Back        Left          300            Left             7.75 
+  06  Male_Back        Right         120            Right            7.21 
+  07  Male_Back        Left          060            Left             4.55 
+  08  Male_Back        Right         000            Right            4.51 
+  09  Male_Back        Right         060            Right            4.32 
+  10  Male_Back        Left          180            Right            22.37 
+  11  Male_Back        Left          000            Left             4.80 
+  12  Male_Back        Right         300            Right            3.63 

@@ -1,0 +1,11 @@
+The PEBL Corsi Blocks Test, Version 0.2
+http://pebl.sourceforge.net/battery.html.
+============================================
+Thank you for participating.  Alert the Experimenter that you are done.
+Block Span:           6
+Total Score:          54
+Total Correct Trials: 9
+Memory Span:          5.5
+
+
+

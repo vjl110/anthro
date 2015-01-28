@@ -1,0 +1,132 @@
+setwd("C:/Users/Chelsea/Dropbox/data/twe_data_16sept2014/October Meeting Data Visualization")
+
+srvy <- read.csv('data/survey.csv')
+info <- read.csv('data/tweinfo.csv')
+
+#### 
+
+for(i in 1:nrow(srvy)){
+	srvy$rsk[i] <- mean(c(srvy$HA1[i], srvy$HA2[i], srvy$HA3[i], srvy$HA4[i], srvy$HA5[i], srvy$HA6[i], srvy$HA7[i], srvy$HA8[i], srvy$HA9[i], srvy$HA10[i]), na.rm=T)   
+	srvy$sab[i] <- 4 - mean(c(srvy$SAB1b[i], srvy$SAB2[i], srvy$SAB3[i]), na.rm=T)   
+	srvy$sax[i] <- 4 - mean(c(srvy$SAX1[i], srvy$SAX2[i], srvy$SAX3[i], (4 - srvy$SAX4[i])), na.rm=T)   	
+}
+
+srvy <- merge(srvy, info, by = "ID", all.x=T)
+
+
+library(ggplot2)
+png("ha_sex.png", width=500, height=500, pointsize=12)
+srvy$male <- as.factor(srvy$male)
+ggplot(srvy, aes(x=rsk, group=male, fill=male)) + geom_density(alpha = 0.25)
+dev.off()
+
+png("sab_sex.png", width=500, height=500, pointsize=12)
+srvy$male <- as.factor(srvy$male)
+ggplot(srvy, aes(x=sab, group=male, fill=male)) + geom_density(alpha = 0.25)
+dev.off()
+
+png("sax_sex.png", width=500, height=500, pointsize=12)
+srvy$male <- as.factor(srvy$male)
+ggplot(srvy, aes(x=sax, group=male, fill=male)) + geom_density(alpha = 0.25)
+dev.off()
+
+	# both sexes over age.
+png("ha_age.png", width=500, height=500, pointsize=12)
+plot(NULL, xlim = c(15, 80), ylim = c(0, 1), xlab = "Age", ylab = "Risk %", main = "Risky responses by age", font = 2, font.lab = 2, cex.lab = 1.5, cex.main = 1.5)
+srvy <- srvy[order(srvy$age),]
+points(srvy$age[srvy$male == 1], srvy$rsk[srvy$male == 1], col = 'blue', cex = 1.5)
+points(srvy$age[srvy$male == 0], srvy$rsk[srvy$male == 0], col = 'red', cex = 1.5)
+srvy$lws[srvy$male == 1] <-  predict(loess(srvy$rsk[srvy$male == 1] ~ srvy$age[srvy$male == 1], span = 0.9), subset(srvy, male == 1))
+srvy$lws[srvy$male == 0] <-  predict(loess(srvy$rsk[srvy$male == 0] ~ srvy$age[srvy$male == 0], span = 0.9), subset(srvy, male == 0))
+lines(srvy$age[srvy$male == 1], srvy$lws[srvy$male == 1], col = 'blue', lwd = 2)
+lines(srvy$age[srvy$male == 0], srvy$lws[srvy$male == 0], col = 'red', lwd = 2)
+legend('topright',c("Men","Women"), pch=c(16, 16), col=c("blue", "red"), box.lwd = 0, bty = "n", cex = 1.5) # legend to explain the plot.
+dev.off()
+
+png("sab_age.png", width=500, height=500, pointsize=12)
+plot(NULL, xlim = c(15, 80), ylim = c(1, 3), xlab = "Age", ylab = "Average score", main = "Spatial ability by age", font = 2, font.lab = 2, cex.lab = 1.5, cex.main = 1.5)
+srvy <- srvy[order(srvy$age),]
+points(srvy$age[srvy$male == 1], srvy$sab[srvy$male == 1], col = 'blue', cex = 1.5)
+points(srvy$age[srvy$male == 0], srvy$sab[srvy$male == 0], col = 'red', cex = 1.5)
+srvy$lws[srvy$male == 1] <-  predict(loess(srvy$sab[srvy$male == 1] ~ srvy$age[srvy$male == 1], span = 0.9), subset(srvy, male == 1))
+srvy$lws[srvy$male == 0] <-  predict(loess(srvy$sab[srvy$male == 0] ~ srvy$age[srvy$male == 0], span = 0.9), subset(srvy, male == 0))
+lines(srvy$age[srvy$male == 1], srvy$lws[srvy$male == 1], col = 'blue', lwd = 2)
+lines(srvy$age[srvy$male == 0], srvy$lws[srvy$male == 0], col = 'red', lwd = 2)
+dev.off()
+
+png("sax_age.png", width=500, height=500, pointsize=12)
+plot(NULL, xlim = c(15, 80), ylim = c(1, 3), xlab = "Age", ylab = "Average score", main = "Spatial anxiety by age", font = 2, font.lab = 2, cex.lab = 1.5, cex.main = 1.5)
+srvy <- srvy[order(srvy$age),]
+points(srvy$age[srvy$male == 1], srvy$sax[srvy$male == 1], col = 'blue', cex = 1.5)
+points(srvy$age[srvy$male == 0], srvy$sax[srvy$male == 0], col = 'red', cex = 1.5)
+srvy$lws[srvy$male == 1] <-  predict(loess(srvy$sax[srvy$male == 1] ~ srvy$age[srvy$male == 1], span = 0.9), subset(srvy, male == 1))
+srvy$lws[srvy$male == 0] <-  predict(loess(srvy$sax[srvy$male == 0] ~ srvy$age[srvy$male == 0], span = 0.9), subset(srvy, male == 0))
+lines(srvy$age[srvy$male == 1], srvy$lws[srvy$male == 1], col = 'blue', lwd = 2)
+lines(srvy$age[srvy$male == 0], srvy$lws[srvy$male == 0], col = 'red', lwd = 2)
+dev.off()
+
+
+######
+#######  HA breakdown
+
+avgHA1.m <- mean(srvy$HA1[srvy$male == 1], na.rm=T)
+avgHA1.f <- mean(srvy$HA1[srvy$male == 0], na.rm=T)
+
+avgHA2.m <- mean(srvy$HA2[srvy$male == 1], na.rm=T)
+avgHA2.f <- mean(srvy$HA2[srvy$male == 0], na.rm=T)
+
+avgHA3.m <- mean(srvy$HA3[srvy$male == 1], na.rm=T)
+avgHA3.f <- mean(srvy$HA3[srvy$male == 0], na.rm=T)
+
+avgHA4.m <- mean(srvy$HA4[srvy$male == 1], na.rm=T)
+avgHA4.f <- mean(srvy$HA4[srvy$male == 0], na.rm=T)
+
+avgHA5.m <- mean(srvy$HA5[srvy$male == 1], na.rm=T)
+avgHA5.f <- mean(srvy$HA5[srvy$male == 0], na.rm=T)
+
+avgHA6.m <- mean(srvy$HA6[srvy$male == 1], na.rm=T)
+avgHA6.f <- mean(srvy$HA6[srvy$male == 0], na.rm=T)
+
+avgHA7.m <- mean(srvy$HA7[srvy$male == 1], na.rm=T)
+avgHA7.f <- mean(srvy$HA7[srvy$male == 0], na.rm=T)
+
+avgHA8.m <- mean(srvy$HA8[srvy$male == 1], na.rm=T)
+avgHA8.f <- mean(srvy$HA8[srvy$male == 0], na.rm=T)
+
+avgHA9.m <- mean(srvy$HA9[srvy$male == 1], na.rm=T)
+avgHA9.f <- mean(srvy$HA9[srvy$male == 0], na.rm=T)
+
+avgHA10.m <- mean(srvy$HA10[srvy$male == 1], na.rm=T)
+avgHA10.f <- mean(srvy$HA10[srvy$male == 0], na.rm=T)
+
+
+
+avgHA1.f
+avgHA1.m
+
+avgHA2.f
+avgHA2.m
+
+avgHA3.f
+avgHA3.m
+
+avgHA4.f
+avgHA4.m
+
+avgHA5.f
+avgHA5.m
+
+avgHA6.f
+avgHA6.m
+
+avgHA7.f
+avgHA7.m
+
+avgHA8.f
+avgHA8.m
+
+avgHA9.f
+avgHA9.m
+
+avgHA10.f
+avgHA10.m

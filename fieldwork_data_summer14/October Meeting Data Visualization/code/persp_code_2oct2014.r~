@@ -1,0 +1,57 @@
+setwd("C:/Users/Chelsea/Dropbox/data/twe_data_16sept2014/October Meeting Data Visualization")
+
+prsp <- read.csv('data/persp.csv')
+info <- read.csv('data/tweinfo.csv')
+
+# Converting answers to errors
+correct <- c(-45, -90, -135, 90, 180, 135, -45, 135, 180, 45, -90, -90, 45, -135, 180) # correct answer for each item
+
+	# function to calculate absolute distance from two points starting from 0 to 180/-180 coding.
+err <- function(x, y, print=TRUE){
+	if(x*y >= 0){
+		result <- abs(x - y)
+	}else{		
+		x180 <- ifelse(x >= 0, 180 - x, -180 - x) #calculate distance to 180
+		y180 <- ifelse(y >= 0, 180 - y, -180 - y) #calculate distance to 180
+		
+		result <- min(c(abs(x) + abs(y), abs(x180) + abs(y180)))
+	}
+	return(result)
+}
+
+	# use function to convert to errors
+prsp <- na.omit(prsp[-2])
+for(i in 1:nrow(prsp)){
+	for(j in 1:length(correct)){
+		prsp[i,j+1] <- err(prsp[i,j+1], correct[j])
+	}
+	prsp$err.tot[i] <- round(mean(as.numeric(prsp[i,4:16])), 1)
+}
+
+	
+#####  Combine with information
+
+prsp <- merge(prsp, info, by = "ID", all.x = T)
+
+
+# Plotting
+	# compare distributions for sexes
+png("persp_sex.png", width=500, height=500, pointsize=12)
+prsp$male <- as.factor(prsp$male)
+ggplot(prsp, aes(x=err.tot, group=male, fill=male)) + geom_density(alpha = 0.25)
+dev.off()
+
+	# both sexes over age.
+png("persp_age.png", width=500, height=500, pointsize=12)
+plot(NULL, xlim = c(15, 70), ylim = c(0, 100), xlab = "Age", ylab = "Average Error", font = 2, font.lab = 2, cex.lab = 1.5)
+prsp <- prsp[order(prsp$age),]
+points(prsp$age[prsp$male == 1], prsp$err.tot[prsp$male == 1], col = 'blue', cex = 1.5)
+points(prsp$age[prsp$male == 0], prsp$err.tot[prsp$male == 0], col = 'red', cex = 1.5)
+prsp$lws[prsp$male == 1] <-  predict(loess(prsp$err.tot[prsp$male == 1] ~ prsp$age[prsp$male == 1], span = 0.9), subset(prsp, male == 1))
+prsp$lws[prsp$male == 0] <-  predict(loess(prsp$err.tot[prsp$male == 0] ~ prsp$age[prsp$male == 0], span = 0.9), subset(prsp, male == 0))
+lines(prsp$age[prsp$male == 1], prsp$lws[prsp$male == 1], col = 'blue', lwd = 2)
+lines(prsp$age[prsp$male == 0], prsp$lws[prsp$male == 0], col = 'red', lwd = 2)
+
+legend('topright',c("Men","Women"), pch=c(1, 1), col=c("blue", "red"), box.lwd = 0, bty = "n", cex = 1.5) # legend to explain the plot.
+dev.off()
+

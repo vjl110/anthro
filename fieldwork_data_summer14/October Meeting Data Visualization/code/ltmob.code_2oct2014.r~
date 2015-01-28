@@ -1,0 +1,49 @@
+setwd("C:/Users/Chelsea/Dropbox/data/twe_data_16sept2014/October Meeting Data Visualization")
+
+ltmob <- read.csv('data/ltmob.csv')
+info <- read.csv('data/tweinfo.csv')
+
+####
+
+for(i in 1:nrow(ltmob)){
+	ltmob$once[i] <- mean(ifelse(as.numeric(ltmob[i,2:21]) > 1, 1, 0), na.rm=T)
+	ltmob$many[i] <- mean(ifelse(as.numeric(ltmob[i,2:21]) == 4, 1, 0), na.rm=T)	
+}	
+
+ltmob <- merge(ltmob, info, by = "ID", all.x=T)
+
+library(ggplot2)
+library(grid)
+library(gridExtra)
+png("ltonce_sex.png", width=650, height=300, pointsize=12)
+ltmob$male <- as.factor(ltmob$male)
+p1 <- ggplot(ltmob, aes(x=once, group=male, fill=male)) + geom_density(alpha = 0.25)
+p2 <- ggplot(ltmob, aes(x=many, group=male, fill=male)) + geom_density(alpha = 0.25)
+grid.arrange(p1, p2, ncol=2, main = "Sex differences in lifetime mobility")
+dev.off()
+
+	# both sexes over age.
+png("ltonce_age.png", width=300, height=600, pointsize=12)
+par(mfrow=c(2,1))
+plot(NULL, xlim = c(15, 80), ylim = c(0, 1), xlab = "Age", ylab = "At least once %", main = "Lifetime mobility by age (1+)", font = 2, font.lab = 2, cex.lab = 1.5)
+ltmob <- ltmob[order(ltmob$age),]
+points(ltmob$age[ltmob$male == 1], ltmob$once[ltmob$male == 1], col = 'blue', cex = 1.5)
+points(ltmob$age[ltmob$male == 0], ltmob$once[ltmob$male == 0], col = 'red', cex = 1.5)
+ltmob$lws[ltmob$male == 1] <-  predict(loess(ltmob$once[ltmob$male == 1] ~ ltmob$age[ltmob$male == 1], span = 0.9), subset(ltmob, male == 1))
+ltmob$lws[ltmob$male == 0] <-  predict(loess(ltmob$once[ltmob$male == 0] ~ ltmob$age[ltmob$male == 0], span = 0.9), subset(ltmob, male == 0))
+lines(ltmob$age[ltmob$male == 1], ltmob$lws[ltmob$male == 1], col = 'blue', lwd = 2)
+lines(ltmob$age[ltmob$male == 0], ltmob$lws[ltmob$male == 0], col = 'red', lwd = 2)
+
+plot(NULL, xlim = c(15, 80), ylim = c(0, 1), xlab = "Age", ylab = "At least once %", main = "Lifetime mobility by age (many)", font = 2, font.lab = 2, cex.lab = 1.5)
+ltmob <- ltmob[order(ltmob$age),]
+points(ltmob$age[ltmob$male == 1], ltmob$many[ltmob$male == 1], col = 'blue', cex = 1.5)
+points(ltmob$age[ltmob$male == 0], ltmob$many[ltmob$male == 0], col = 'red', cex = 1.5)
+ltmob$lws[ltmob$male == 1] <-  predict(loess(ltmob$many[ltmob$male == 1] ~ ltmob$age[ltmob$male == 1], span = 0.9), subset(ltmob, male == 1))
+ltmob$lws[ltmob$male == 0] <-  predict(loess(ltmob$many[ltmob$male == 0] ~ ltmob$age[ltmob$male == 0], span = 0.9), subset(ltmob, male == 0))
+lines(ltmob$age[ltmob$male == 1], ltmob$lws[ltmob$male == 1], col = 'blue', lwd = 2)
+lines(ltmob$age[ltmob$male == 0], ltmob$lws[ltmob$male == 0], col = 'red', lwd = 2)
+dev.off()
+
+
+
+

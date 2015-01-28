@@ -1,0 +1,7 @@
+point_twe file contains IDs, Point of Origin (PoO) and degrees pointed to target
+
+point_coordinates file contains GPS coordinates for all PoO and targets included in the study.
+
+Participant points recorded using a Brunton compass. Declination set to -9.5 degrees
+
+ 

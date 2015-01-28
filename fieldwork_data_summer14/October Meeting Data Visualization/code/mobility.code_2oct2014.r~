@@ -1,0 +1,119 @@
+#setwd("C:/Users/Chelsea/Dropbox/data/twe_data_16sept2014/October Meeting Data Visualization")
+setwd("C:/Users/Layne Vashro/Dropbox/data/twe_data_16sept2014/October Meeting Data Visualization")
+
+yrmob <- read.csv('data/yrmob.csv')
+info <- read.csv('data/tweinfo.csv')
+
+repro <- read.csv('data/repro.csv')
+
+#### 
+yrmob <- merge(yrmob, info, by = "ID", all.x=T)
+
+library(ggplot2)
+library(grid)
+library(gridExtra)
+png("mobtot_sex.png", width=750, height=500, pointsize=12)
+yrmob$male <- as.factor(yrmob$male)
+ggplot(yrmob, aes(x=tot, group=male, fill=male)) + geom_density(alpha = 0.25)
+dev.off()
+
+png("mobreason.png", width=750, height=500, pointsize=12)
+yrmob$male <- as.factor(yrmob$male)
+p1 <- 	ggplot(yrmob, aes(x=econ, group=male, fill=male)) + geom_density(alpha = 0.25)
+p2 <- 	ggplot(yrmob, aes(x=health, group=male, fill=male)) + geom_density(alpha = 0.25)
+p3 <- 	ggplot(yrmob, aes(x=social, group=male, fill=male)) + geom_density(alpha = 0.25)
+p4 <- 	ggplot(yrmob, aes(x=mating, group=male, fill=male)) + geom_density(alpha = 0.25)
+grid.arrange(p1, p2, p3, p4, ncol=2, main = "Sex differences in stated reason for travel")
+dev.off()
+
+png("mobalone.png", width=300, height=500, pointsize=12)
+yrmob$male <- as.factor(yrmob$male)
+p1 <- 	ggplot(yrmob, aes(x=alone, group=male, fill=male)) + geom_density(alpha = 0.25)
+p2 <- 	ggplot(yrmob, aes(x=company, group=male, fill=male)) + geom_density(alpha = 0.25)
+grid.arrange(p1, p2, ncol=1, main = "Sex differences in solo travelling")
+dev.off()
+
+
+
+
+	# both sexes over age.
+png("mobtot_age.png", width=500, height=500, pointsize=12)
+plot(NULL, xlim = c(15, 80), ylim = c(0, 20), xlab = "Age", ylab = "Trips", main = "Total trips by age", font = 2, font.lab = 2, cex.lab = 1.5, cex.main = 1.5)
+yrmob <- yrmob[order(yrmob$age),]
+points(yrmob$age[yrmob$male == 1], yrmob$tot[yrmob$male == 1], col = 'blue', cex = 1.5)
+points(yrmob$age[yrmob$male == 0], yrmob$tot[yrmob$male == 0], col = 'red', cex = 1.5)
+yrmob$lws[yrmob$male == 1] <-  predict(loess(yrmob$tot[yrmob$male == 1] ~ yrmob$age[yrmob$male == 1], span = 0.9), subset(yrmob, male == 1))
+yrmob$lws[yrmob$male == 0] <-  predict(loess(yrmob$tot[yrmob$male == 0] ~ yrmob$age[yrmob$male == 0], span = 0.9), subset(yrmob, male == 0))
+lines(yrmob$age[yrmob$male == 1], yrmob$lws[yrmob$male == 1], col = 'blue', lwd = 2)
+lines(yrmob$age[yrmob$male == 0], yrmob$lws[yrmob$male == 0], col = 'red', lwd = 2)
+legend('topright',c("Men","Women"), pch=c(16, 16), col=c("blue", "red"), box.lwd = 0, bty = "n", cex = 1.5) # legend to explain the plot.
+dev.off()
+
+######
+
+png("mobreason_age.png", width=500, height=500, pointsize=12)
+par(mfrow=c(2,2))
+plot(NULL, xlim = c(15, 80), ylim = c(0, 10), xlab = "Age", ylab = "Trips", main = "Econ", font = 2, font.lab = 2, cex.lab = 1.5, cex.main = 1.5)
+points(yrmob$age[yrmob$male == 1], yrmob$econ[yrmob$male == 1], col = 'blue')
+points(yrmob$age[yrmob$male == 0], yrmob$econ[yrmob$male == 0], col = 'red')
+yrmob$lws[yrmob$male == 1] <-  predict(loess(yrmob$econ[yrmob$male == 1] ~ yrmob$age[yrmob$male == 1], span = 0.9), subset(yrmob, male == 1))
+yrmob$lws[yrmob$male == 0] <-  predict(loess(yrmob$econ[yrmob$male == 0] ~ yrmob$age[yrmob$male == 0], span = 0.9), subset(yrmob, male == 0))
+lines(yrmob$age[yrmob$male == 1], yrmob$lws[yrmob$male == 1], col = 'blue', lwd = 2)
+lines(yrmob$age[yrmob$male == 0], yrmob$lws[yrmob$male == 0], col = 'red', lwd = 2)
+
+plot(NULL, xlim = c(15, 80), ylim = c(0, 10), xlab = "Age", ylab = "Trips", main = "Health", font = 2, font.lab = 2, cex.lab = 1.5, cex.main = 1.5)
+yrmob <- yrmob[order(yrmob$age),]
+points(yrmob$age[yrmob$male == 1], yrmob$health[yrmob$male == 1], col = 'blue')
+points(yrmob$age[yrmob$male == 0], yrmob$health[yrmob$male == 0], col = 'red')
+yrmob$lws[yrmob$male == 1] <-  predict(loess(yrmob$health[yrmob$male == 1] ~ yrmob$age[yrmob$male == 1], span = 0.9), subset(yrmob, male == 1))
+yrmob$lws[yrmob$male == 0] <-  predict(loess(yrmob$health[yrmob$male == 0] ~ yrmob$age[yrmob$male == 0], span = 0.9), subset(yrmob, male == 0))
+lines(yrmob$age[yrmob$male == 1], yrmob$lws[yrmob$male == 1], col = 'blue', lwd = 2)
+lines(yrmob$age[yrmob$male == 0], yrmob$lws[yrmob$male == 0], col = 'red', lwd = 2)
+legend('topright',c("Men","Women"), pch=c(16, 16), col=c("blue", "red"), box.lwd = 0, bty = "n", cex = 1.5) # legend to explain the plot.
+
+plot(NULL, xlim = c(15, 80), ylim = c(0, 10), xlab = "Age", ylab = "Trips", main = "Social", font = 2, font.lab = 2, cex.lab = 1.5, cex.main = 1.5)
+yrmob <- yrmob[order(yrmob$age),]
+points(yrmob$age[yrmob$male == 1], yrmob$social[yrmob$male == 1], col = 'blue')
+points(yrmob$age[yrmob$male == 0], yrmob$social[yrmob$male == 0], col = 'red')
+yrmob$lws[yrmob$male == 1] <-  predict(loess(yrmob$social[yrmob$male == 1] ~ yrmob$age[yrmob$male == 1], span = 0.9), subset(yrmob, male == 1))
+yrmob$lws[yrmob$male == 0] <-  predict(loess(yrmob$social[yrmob$male == 0] ~ yrmob$age[yrmob$male == 0], span = 0.9), subset(yrmob, male == 0))
+lines(yrmob$age[yrmob$male == 1], yrmob$lws[yrmob$male == 1], col = 'blue', lwd = 2)
+lines(yrmob$age[yrmob$male == 0], yrmob$lws[yrmob$male == 0], col = 'red', lwd = 2)
+
+plot(NULL, xlim = c(15, 80), ylim = c(0, 10), xlab = "Age", ylab = "Trips", main = "Mating", font = 2, font.lab = 2, cex.lab = 1.5, cex.main = 1.5)
+yrmob <- yrmob[order(yrmob$age),]
+points(yrmob$age[yrmob$male == 1], yrmob$mating[yrmob$male == 1], col = 'blue')
+points(yrmob$age[yrmob$male == 0], yrmob$mating[yrmob$male == 0], col = 'red')
+yrmob$lws[yrmob$male == 1] <-  predict(loess(yrmob$mating[yrmob$male == 1] ~ yrmob$age[yrmob$male == 1], span = 0.9), subset(yrmob, male == 1))
+yrmob$lws[yrmob$male == 0] <-  predict(loess(yrmob$mating[yrmob$male == 0] ~ yrmob$age[yrmob$male == 0], span = 0.9), subset(yrmob, male == 0))
+lines(yrmob$age[yrmob$male == 1], yrmob$lws[yrmob$male == 1], col = 'blue', lwd = 2)
+lines(yrmob$age[yrmob$male == 0], yrmob$lws[yrmob$male == 0], col = 'red', lwd = 2)
+dev.off()
+
+#######
+
+
+png("mobalone_age.png", width=300, height=600, pointsize=12)
+par(mfrow=c(2,1))
+plot(NULL, xlim = c(15, 80), ylim = c(0, 10), xlab = "Age", ylab = "Trips", main = "Alone", font = 2, font.lab = 2, cex.lab = 1.5, cex.main = 1.5)
+points(yrmob$age[yrmob$male == 1], yrmob$alone[yrmob$male == 1], col = 'blue')
+points(yrmob$age[yrmob$male == 0], yrmob$alone[yrmob$male == 0], col = 'red')
+yrmob$lws[yrmob$male == 1] <-  predict(loess(yrmob$alone[yrmob$male == 1] ~ yrmob$age[yrmob$male == 1], span = 0.9), subset(yrmob, male == 1))
+yrmob$lws[yrmob$male == 0] <-  predict(loess(yrmob$alone[yrmob$male == 0] ~ yrmob$age[yrmob$male == 0], span = 0.9), subset(yrmob, male == 0))
+lines(yrmob$age[yrmob$male == 1], yrmob$lws[yrmob$male == 1], col = 'blue', lwd = 2)
+lines(yrmob$age[yrmob$male == 0], yrmob$lws[yrmob$male == 0], col = 'red', lwd = 2)
+legend('topright',c("Men","Women"), pch=c(16, 16), col=c("blue", "red"), box.lwd = 0, bty = "n") # legend to explain the plot.
+
+
+plot(NULL, xlim = c(15, 80), ylim = c(0, 10), xlab = "Age", ylab = "Trips", main = "With others", font = 2, font.lab = 2, cex.lab = 1.5, cex.main = 1.5)
+yrmob <- yrmob[order(yrmob$age),]
+points(yrmob$age[yrmob$male == 1], yrmob$company[yrmob$male == 1], col = 'blue')
+points(yrmob$age[yrmob$male == 0], yrmob$company[yrmob$male == 0], col = 'red')
+yrmob$lws[yrmob$male == 1] <-  predict(loess(yrmob$company[yrmob$male == 1] ~ yrmob$age[yrmob$male == 1], span = 0.9), subset(yrmob, male == 1))
+yrmob$lws[yrmob$male == 0] <-  predict(loess(yrmob$company[yrmob$male == 0] ~ yrmob$age[yrmob$male == 0], span = 0.9), subset(yrmob, male == 0))
+lines(yrmob$age[yrmob$male == 1], yrmob$lws[yrmob$male == 1], col = 'blue', lwd = 2)
+lines(yrmob$age[yrmob$male == 0], yrmob$lws[yrmob$male == 0], col = 'red', lwd = 2)
+legend('topright',c("Men","Women"), pch=c(16, 16), col=c("blue", "red"), box.lwd = 0, bty = "n") # legend to explain the plot.
+dev.off()
+
+

@@ -1,0 +1,21 @@
+Number:67
+Date:13jun2014
+Age:22
+Sex:f
+Number of Blocks:1
+ 
+Block 1 
+ 
+Trial     Image   TargetImage  Angle  SubjectResponse  Time 
+  01  Male_Front        Right         240            Left             33.31 
+  02  Male_Front        Left          000            Left             7.43 
+  03  Male_Front        Left          060            Right            3.78 
+  04  Male_Front        Left          180            Left             13.30 
+  05  Male_Front        Right         300            Right            5.97 
+  06  Male_Front        Right         120            Left             4.19 
+  07  Male_Front        Right         180            Left             6.47 
+  08  Male_Front        Left          240            Right            6.86 
+  09  Male_Front        Right         000            Right            10.18 
+  10  Male_Front        Left          300            Left             6.07 
+  11  Male_Front        Left          120            Left             7.15 
+  12  Male_Front        Right         060            Right            5.23 
