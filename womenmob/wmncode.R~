@@ -4,13 +4,13 @@ setwd("~/GitHub/anthro")
 ######
 ######
 
-inf <- read.csv("womenmob/data/tweinfo.csv")
-rep <- read.csv("womenmob/data/repro.csv")
-mob <- read.csv("womenmob/data/yrmob.csv")
-srvy <- read.csv("womenmob/data/survey.csv")
-cog <- read.csv("womenmob/data/cog.csv")
-raw <- read.csv("womenmob/data/mobraw.csv")
-trk <- read.csv("womenmob/data/trackdat.csv")
+inf <- read.csv("womenmob/data/tweinfo.csv", strip.white = T)
+rep <- read.csv("womenmob/data/repro.csv", strip.white = T)
+mob <- read.csv("womenmob/data/yrmob.csv", strip.white = T)
+srvy <- read.csv("womenmob/data/survey.csv", strip.white = T)
+cog <- read.csv("womenmob/data/cog.csv", strip.white = T)
+raw <- read.csv("womenmob/data/mobraw.csv", strip.white = T)
+trk <- read.csv("womenmob/data/trackdat.csv", strip.white = T)
 
 	for(i in 1:nrow(srvy)){
 	srvy$rsk[i] <- mean(c(srvy$HA1[i], srvy$HA2[i], srvy$HA3[i], srvy$HA4[i], srvy$HA5[i], srvy$HA6[i], srvy$HA7[i], srvy$HA8[i], srvy$HA9[i], srvy$HA10[i]), na.rm=T)   
@@ -28,7 +28,11 @@ dat <- merge(dat, cog, by="ID")
 
 TRK <- merge(trk, inf, by= "ID", all.x = TRUE)
 TRK <- merge(TRK, rep, by= "ID", all.x = TRUE)
+	
+	##########  ATTEMPTING TO DEAL W/ INCOMPLETE DAY ISSUE ##########
 
+	TRK <- TRK[c(1, 4:6, 8:9, 13:18)]
+	TRK <- aggregate( . ~ ID, data = TRK, max)
 ###
 
 m1 <- lm(tot ~ bfeed, data = subset(dat, male == 0 & age < 45))
