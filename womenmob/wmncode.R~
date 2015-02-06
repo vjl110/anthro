@@ -11,6 +11,8 @@ srvy <- read.csv("womenmob/data/survey.csv", strip.white = T)
 cog <- read.csv("womenmob/data/cog.csv", strip.white = T)
 raw <- read.csv("womenmob/data/mobraw.csv", strip.white = T)
 trk <- read.csv("womenmob/data/trackdat.csv", strip.white = T)
+psp <- read.csv("womenmob/data/persp_err.csv", strip.white = T)
+
 
 	for(i in 1:nrow(srvy)){
 	srvy$rsk[i] <- mean(c(srvy$HA1[i], srvy$HA2[i], srvy$HA3[i], srvy$HA4[i], srvy$HA5[i], srvy$HA6[i], srvy$HA7[i], srvy$HA8[i], srvy$HA9[i], srvy$HA10[i]), na.rm=T)   
@@ -28,6 +30,11 @@ dat <- merge(dat, cog, by="ID")
 
 TRK <- merge(trk, inf, by= "ID", all.x = TRUE)
 TRK <- merge(TRK, rep, by= "ID", all.x = TRUE)
+
+psp <- merge(inf, psp, by="ID")
+	for(i in 1:nrow(psp)){
+		psp$avg[i] <- mean(as.numeric(abs(psp[i, 9:20])), na.rm = T)
+	}
 	
 	##########  ATTEMPTING TO DEAL W/ INCOMPLETE DAY ISSUE ##########
 
