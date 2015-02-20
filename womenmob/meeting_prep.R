@@ -14,7 +14,7 @@ ltmob <- read.csv("womenmob/data/ltmob.csv", strip.white = T)
 	}
 	ltmob <- ltmob[-c(2:21)]
 cog <- read.csv("womenmob/data/cog.csv", strip.white = T)
-	cog <- cog[-c(2:4, 6)]
+	#cog <- cog[-c(2:4, 6)]
 srvy <- read.csv("womenmob/data/survey.csv", strip.white = T)
 	for(i in 1:nrow(srvy)){
 		srvy$ha[i] <- (1 - mean(c(srvy$HA1[i], srvy$HA2[i], srvy$HA3[i], srvy$HA4[i], srvy$HA5[i]
@@ -25,7 +25,7 @@ srvy <- read.csv("womenmob/data/survey.csv", strip.white = T)
 	}
 	srvy <- srvy[c(1,31:33)]
 rep <- read.csv("womenmob/data/repro.csv", strip.white = T)
-	rep <- rep[c(1, 4)]
+	#rep <- rep[c(1, 4)]
 trk <- read.csv("womenmob/data/trackdat.csv", strip.white = T)
 	trk <- trk[-c(2:3)]
 	trk <- aggregate( . ~ ID, data = trk, mean)	
@@ -152,6 +152,8 @@ dat <- merge(dat, psp, by = "ID", all.x = T)
 dat <- merge(dat, mob, by = "ID", all.x = T)
 dat <- merge(dat, ltmob, by="ID", all.x = T)
 dat <- merge(dat, trk, by="ID", all.x = T)
+dat <- merge(dat, rep, by="ID", all.x = T)
+dat <- merge(dat, srvy, by="ID", all.x = T)
 
 
 ##########
@@ -251,6 +253,10 @@ dat <- merge(dat, mob, by="ID", all.x =T)
 dat <- merge(dat, ltmob, by="ID", all.x =T)
 dat <- merge(dat, trk, by="ID", all.x =T)
 dat <- merge(dat, srvy, by="ID", all.x =T)
+dat <- merge(dat, cog, by="ID", all.x =T)
+dat <- merge(dat, psp, by="ID", all.x =T)
+
+
 
 png("justwom.png", width=500, height=500, pointsize=12)
 plot(NULL, xlim = c(17, 75), ylim = c(0, 8), xlab = "Age", ylab = "Unique laces visited in past year", main = "Women only", font = 2, font.lab = 2, cex.lab = 1.5, cex.main = 1.5)
@@ -377,4 +383,49 @@ dat$lws[dat$male == 0] <-  predict(loess(dat$ha[dat$male == 0] ~ dat$age[dat$mal
 dat$lws[dat$male == 1] <-  predict(loess(dat$ha[dat$male == 1] ~ dat$age[dat$male == 1], span = 0.95), subset(dat, male == 1))
 lines(dat$age[dat$male == 0], dat$lws[dat$male == 0], col = 'salmon', lwd = 2)
 lines(dat$age[dat$male == 1], dat$lws[dat$male == 1], col = 'blue', lwd = 2)
+
+
+
+
+
+
+
+
+
+
+##3
+####3
+### LATENT VARIABLE!!
+
+###
+library(lavaan)
+
+dat <- merge(inf, rep, by="ID", all.x =T)
+dat <- merge(dat, cog, by="ID", all.x =T)
+dat <- merge(dat, psp, by="ID", all.x =T)
+dat <- subset(dat, !is.na(bfeed) & !is.na(mr.acc) & !is.na(span) & !is.na(psp_avg) & !is.na(age))
+
+HS.model <- 'visualization  =~ mr.acc + mr.time'
+
+fit <- cfa(HS.model, data = tst)
+
+
+library(semPlot)
+semPaths(mod1fit, what = "est", layout = "tree", title = TRUE, style = "LISREL")
+
+
+
+
+
+
+
+
+dat$mr <- scale(scale(dat$mr.acc) - scale(dat$mr.time))
+dat$psp <- -scale(dat$psp_avg)
+dat$pnt <- -scale(dat$V1)
+dat$cor <- scale(dat$span)
+for(i in 1:nrow(dat)){
+	dat$cog[i] <- mean(c(dat$mr[i], dat$pnt[i], dat$cor[i], dat$psp[i]), na.rm=T)
+}
+
 
