@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.1.12)  17 FEB 2015 13:11
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.1.12)  23 FEB 2015 14:20
 entering extended mode
 **bfeed_mob.tex
 (C:\Users\Chelsea\Documents\GitHub\anthro\womenmob\paper\bfeed_mob.tex
@@ -219,7 +219,26 @@ LaTeX Info: Redefining \citeauthor on input line 712.
 LaTeX Info: Redefining \citeyear on input line 735.
 \c@NAT@ctr=\count107
 )
-No file bfeed_mob.aux.
+(C:\Users\Chelsea\Documents\GitHub\anthro\womenmob\paper\bfeed_mob.aux
+
+! Package natbib Error: Bibliography not compatible with author-year citations.
+
+(natbib)                Press <return> to continue in numerical citation style.
+
+
+See the natbib package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.12 ...mand\NAT@force@numbers{}\NAT@force@numbers
+                                                  
+Check the bibliography entries for non-compliant syntax,
+or select author-year BibTeX style, e.g. plainnat
+
+
+LaTeX Warning: Label `sec:1.1' multiply defined.
+
+)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
 LaTeX Font Info:    ... okay on input line 31.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
@@ -234,6 +253,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
 LaTeX Font Info:    ... okay on input line 31.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 31.
 LaTeX Font Info:    ... okay on input line 31.
+
 Unknown journal: specify \journalname{<name of your journal>} in preambel
 
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
@@ -268,9 +288,6 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 56.
 
 
-LaTeX Warning: File `example.eps' not found on input line 101.
-
-
 ! LaTeX Error: Unknown graphics extension: .eps.
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -281,9 +298,6 @@ l.101   \includegraphics{example.eps}
                                      
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `example.eps' not found on input line 111.
 
 
 ! LaTeX Error: Unknown graphics extension: .eps.
@@ -301,46 +315,26 @@ If that doesn't work, type  X <return>  to quit.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [2{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [3]
-(C:\Users\Chelsea\Documents\GitHub\anthro\womenmob\paper\bfeed_mob.aux
+(C:\Users\Chelsea\Documents\GitHub\anthro\womenmob\paper\bfeed_mob.aux)
 
-Package natbib Warning: Citation(s) may have changed.
-(natbib)                Rerun to get citations correct.
-
-
-! Package natbib Error: Bibliography not compatible with author-year citations.
-
-(natbib)                Press <return> to continue in numerical citation style.
-
-
-See the natbib package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.12 ...mand\NAT@force@numbers{}\NAT@force@numbers
-                                                  
-Check the bibliography entries for non-compliant syntax,
-or select author-year BibTeX style, e.g. plainnat
-
-)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2572 strings out of 493921
- 35668 string characters out of 3147276
+ 2574 strings out of 493921
+ 35806 string characters out of 3147276
  89652 words of memory out of 3000000
  5892 multiletter control sequences out of 15000+200000
  7293 words of font info for 26 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 27i,7n,20p,241b,270s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 27i,7n,20p,241b,273s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
 ublic/amsfonts/cm/cmsy10.pfb>
-Output written on bfeed_mob.pdf (3 pages, 81113 bytes).
+Output written on bfeed_mob.pdf (3 pages, 81115 bytes).
 PDF statistics:
  36 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

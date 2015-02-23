@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.1.12)  17 FEB 2015 14:16
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.1.12)  23 FEB 2015 14:20
 entering extended mode
 **template.tex
 (C:\Users\Chelsea\Documents\GitHub\anthro\womenmob\paper\template.tex
@@ -176,11 +176,7 @@ Package pdftex.def Info: bfeed_mob.png used on input line 142.
 (pdftex.def)             Requested size: 253.5pt x 253.5023pt.
  [2 <C:/Users/Chelsea/Documents/GitHub/anthro/womenmob/paper/bfeed_mob.png>] [3
 ]
-(C:\Users\Chelsea\Documents\GitHub\anthro\womenmob\paper\template.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+(C:\Users\Chelsea\Documents\GitHub\anthro\womenmob\paper\template.aux) ) 
 Here is how much of TeX's memory you used:
  1828 strings out of 493921
  26602 string characters out of 3147276
@@ -189,12 +185,13 @@ Here is how much of TeX's memory you used:
  7293 words of font info for 26 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  27i,7n,20p,236b,283s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmsy10.pfb>
+<C:/Pro
+gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmsy10.pfb>
 Output written on template.pdf (3 pages, 88381 bytes).
 PDF statistics:
  38 PDF objects out of 1000 (max. 8388607)
