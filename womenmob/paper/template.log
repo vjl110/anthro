@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.10.22)  26 FEB 2015 13:24
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.1.12)  2 MAR 2015 13:35
 entering extended mode
 **template.tex
-("C:\Users\Layne Vashro\Documents\GitHub\anthro\womenmob\paper\template.tex"
+(C:\Users\Chelsea\Documents\GitHub\anthro\womenmob\paper\template.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -23,13 +23,13 @@ Package: fix-cm 2006/09/13 v1.1m fixes to LaTeX
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1enc.def"
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 ))
-("C:\Users\Layne Vashro\Documents\GitHub\anthro\womenmob\paper\svjour3.cls"
+(C:\Users\Chelsea\Documents\GitHub\anthro\womenmob\paper\svjour3.cls
 Document Class: svjour3 2007/05/08 v3.2 
 LaTeX document class for Springer journals
 Class Springer-SVJour3 Info: extra/valid Springer sub-package (-> *.clo) 
 (Springer-SVJour3)           not found in option list of \documentclass
 (Springer-SVJour3)           - autoactivating "global" style.
-("C:\Users\Layne Vashro\Documents\GitHub\anthro\womenmob\paper\svglov3.clo"
+(C:\Users\Chelsea\Documents\GitHub\anthro\womenmob\paper\svglov3.clo
 File: svglov3.clo 2009/12/18 v3.2 style option for standardised journals
 
 SVJour Class option: svglov3.clo for standardised journals
@@ -122,7 +122,7 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen114
 \Gin@req@width=\dimen115
 )
-("C:\Users\Layne Vashro\Documents\GitHub\anthro\womenmob\paper\template.aux")
+(C:\Users\Chelsea\Documents\GitHub\anthro\womenmob\paper\template.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 62.
 LaTeX Font Info:    ... okay on input line 62.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 62.
@@ -169,31 +169,30 @@ File: bfeed_mob.png Graphic file (type png)
  <use bfeed_mob.png>
 Package pdftex.def Info: bfeed_mob.png used on input line 160.
 (pdftex.def)             Requested size: 253.5pt x 253.5023pt.
- [4 <C:/Users/Layne Vashro/Documents/GitHub/anthro/womenmob/paper/bfeed_mob.png
->]
+ [4 <C:/Users/Chelsea/Documents/GitHub/anthro/womenmob/paper/bfeed_mob.png>]
 File: bfeed_mob.png Graphic file (type png)
 
 <use bfeed_mob.png>
 Package pdftex.def Info: bfeed_mob.png used on input line 197.
 (pdftex.def)             Requested size: 253.5pt x 253.5023pt.
  [5] [6]
-("C:\Users\Layne Vashro\Documents\GitHub\anthro\womenmob\paper\template.aux") )
- 
+(C:\Users\Chelsea\Documents\GitHub\anthro\womenmob\paper\template.aux) ) 
 Here is how much of TeX's memory you used:
  1838 strings out of 493921
- 26766 string characters out of 3147260
- 76243 words of memory out of 3000000
+ 26711 string characters out of 3147276
+ 76239 words of memory out of 3000000
  5164 multiletter control sequences out of 15000+200000
  7639 words of font info for 27 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  27i,7n,20p,1204b,277s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Prog
-ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program File
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Program Files/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
-lic/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
-onts/cm/cmti10.pfb>
+<C:/Pro
+gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmti10.pfb>
 Output written on template.pdf (6 pages, 115599 bytes).
 PDF statistics:
  51 PDF objects out of 1000 (max. 8388607)
