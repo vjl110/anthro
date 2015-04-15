@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.10.22)  7 APR 2015 15:30
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.10.22)  13 APR 2015 13:36
 entering extended mode
-**template.tex
-("C:\Users\Layne Vashro\Documents\GitHub\anthro\womenmob\paper\template.tex"
+**test_output.tex
+("C:\Users\Layne Vashro\Documents\GitHub\anthro\womenmob\paper\test_output.tex"
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -122,11 +122,7 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen114
 \Gin@req@width=\dimen115
 )
-("C:\Users\Layne Vashro\Documents\GitHub\anthro\womenmob\paper\template.aux"
-
-LaTeX Warning: Label `sec:3.1.2' multiply defined.
-
-)
+No file test_output.aux.
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 62.
 LaTeX Font Info:    ... okay on input line 62.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 62.
@@ -141,7 +137,6 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 62.
 LaTeX Font Info:    ... okay on input line 62.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 62.
 LaTeX Font Info:    ... okay on input line 62.
-
 Unknown journal: specify \journalname{<name of your journal>} in preambel
 
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
@@ -168,63 +163,89 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 87.
 
-LaTeX Warning: Citation `sherry1997evolution' on page 1 undefined on input line
- 99.
+LaTeX Warning: Reference `tab:miss_cog' on page 1 undefined on input line 105.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Reference `tab:sd_cog' on page 1 undefined on input line 150.
+
+
+LaTeX Warning: Reference `tab:sd_cog' on page 1 undefined on input line 150.
+
+
+LaTeX Warning: Reference `tab:sd_cog' on page 1 undefined on input line 150.
+
+
+LaTeX Warning: Reference `tab:sd_cog' on page 1 undefined on input line 150.
 
 [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
 
-LaTeX Warning: Citation `hill1996ache' on page 2 undefined on input line 105.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-LaTeX Warning: Citation ` sear2008keeps' on page 2 undefined on input line 105.
-
-
-
-LaTeX Warning: Citation `watts1989infanticide' on page 2 undefined on input lin
-e 109.
-
-
-LaTeX Warning: Citation ` stokes2003female' on page 2 undefined on input line 1
-09.
-
-
-LaTeX Warning: Citation `mitani2002recent' on page 2 undefined on input line 10
-9.
-
-
-LaTeX Warning: Citation ` watts1989infanticide' on page 2 undefined on input li
-ne 109.
-
-
-Underfull \vbox (badness 4001) has occurred while \output is active []
+Underfull \vbox (badness 1331) has occurred while \output is active []
 
  [2]
-[3] [4] [5] [6] [7] [8] <bfeed_mob.png, id=36, 501.875pt x 501.875pt>
-File: bfeed_mob.png Graphic file (type png)
 
-<use bfeed_mob.png>
-Package pdftex.def Info: bfeed_mob.png used on input line 452.
-(pdftex.def)             Requested size: 253.5pt x 253.5023pt.
- [9] [10]
-File: bfeed_mob.png Graphic file (type png)
- <use bfeed_mob.png>
-Package pdftex.def Info: bfeed_mob.png used on input line 474.
-(pdftex.def)             Requested size: 253.5pt x 253.5023pt.
- [11 <C:/Users/Layne Vashro/Documents/GitHub/anthro/womenmob/paper/bfeed_mob.pn
-g>] [12]
-("C:\Users\Layne Vashro\Documents\GitHub\anthro\womenmob\paper\template.aux")
+LaTeX Warning: Reference `tab:sd_anx' on page 3 undefined on input line 174.
 
-LaTeX Warning: There were multiply-defined labels.
+
+LaTeX Warning: Reference `sd_mob' on page 3 undefined on input line 191.
+
+
+LaTeX Warning: Reference `sd_mob' on page 3 undefined on input line 193.
+
+[3]
+
+LaTeX Warning: Reference `sd_mob' on page 4 undefined on input line 195.
+
+
+LaTeX Warning: Reference `tab:miss_cog' on page 4 undefined on input line 215.
+
+
+LaTeX Warning: Reference `tab:fert_cog' on page 4 undefined on input line 233.
+
+
+Overfull \hbox (8.36166pt too wide) in paragraph at lines 233--234
+[]\OT1/cmr/m/n/10 Post-menopausal women scored slightly worse than reproductive
+-aged women
+ []
+
+[4]
+
+LaTeX Warning: Reference `tab:miss_cog' on page 5 undefined on input line 235.
+
+[5]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[6] <bfeed_tot.png, id=30, 501.875pt x 501.875pt>
+File: bfeed_tot.png Graphic file (type png)
+ <use bfeed_tot.png>
+Package pdftex.def Info: bfeed_tot.png used on input line 333.
+(pdftex.def)             Requested size: 253.5pt x 253.5023pt.
+ [7 <C:/Users/Layne Vashro/Documents/GitHub/anthro/womenmob/paper/bfeed_tot.png
+>]
+[8]
+("C:\Users\Layne Vashro\Documents\GitHub\anthro\womenmob\paper\test_output.aux"
+)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 1859 strings out of 493921
- 27072 string characters out of 3147260
- 85416 words of memory out of 3000000
- 5185 multiletter control sequences out of 15000+200000
+ 1843 strings out of 493921
+ 26748 string characters out of 3147260
+ 84022 words of memory out of 3000000
+ 5171 multiletter control sequences out of 15000+200000
  7639 words of font info for 27 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 27i,8n,20p,1334b,220s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 27i,8n,20p,949b,222s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Program Files/MiKTe
@@ -232,11 +253,11 @@ X 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
 public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
 fonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.p
-fb>
-Output written on template.pdf (12 pages, 156948 bytes).
+/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pf
+b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on test_output.pdf (8 pages, 147602 bytes).
 PDF statistics:
- 79 PDF objects out of 1000 (max. 8388607)
+ 71 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

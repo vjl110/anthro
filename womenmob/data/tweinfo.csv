@@ -47,7 +47,7 @@ ID,name,age,male,tribe,location,school
 46,endumuni,34,1,himba,orue,0
 47,hinawandje,34,1,zemba,orue,0
 48,katupo,24,1,zemba,orue,0
-49,zakavindwa,24,0,himba,orue,> 0
+49,zakavindwa,24,0,himba,orue,1
 50,ngotji,24,0,himba,orue,0
 51,vemuiera,56,1,himba,okotuwondo,0
 52,watukauza,20,1,twe,okotuwondo,6

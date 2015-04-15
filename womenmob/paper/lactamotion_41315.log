@@ -1,7 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.10.22)  7 APR 2015 15:30
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.10.22)  15 APR 2015 12:03
 entering extended mode
-**template.tex
-("C:\Users\Layne Vashro\Documents\GitHub\anthro\womenmob\paper\template.tex"
+**lactamotion_41315.tex
+
+("C:\Users\Layne Vashro\Documents\GitHub\anthro\womenmob\paper\lactamotion_4131
+5.tex"
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -122,9 +124,19 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen114
 \Gin@req@width=\dimen115
 )
-("C:\Users\Layne Vashro\Documents\GitHub\anthro\womenmob\paper\template.aux"
+("C:\Users\Layne Vashro\Documents\GitHub\anthro\womenmob\paper\lactamotion_4131
+5.aux"
 
 LaTeX Warning: Label `sec:3.1.2' multiply defined.
+
+
+LaTeX Warning: Label `sec:3.1.2' multiply defined.
+
+
+LaTeX Warning: Label `sec:3.1' multiply defined.
+
+
+LaTeX Warning: Label `fig:1' multiply defined.
 
 )
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 62.
@@ -171,72 +183,127 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Warning: Citation `sherry1997evolution' on page 1 undefined on input line
  99.
 
+
+Overfull \hbox (2.11171pt too wide) in paragraph at lines 103--104
+\OT1/cmr/m/n/10 The fer-til-ity and parental care hy-poth-e-sis draws from the 
+pat-tern-ing of women's
+ []
+
 [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
 
-LaTeX Warning: Citation `hill1996ache' on page 2 undefined on input line 105.
+LaTeX Warning: Citation `hill1996ache' on page 2 undefined on input line 109.
 
 
-LaTeX Warning: Citation ` sear2008keeps' on page 2 undefined on input line 105.
+LaTeX Warning: Citation ` sear2008keeps' on page 2 undefined on input line 109.
 
 
 
 LaTeX Warning: Citation `watts1989infanticide' on page 2 undefined on input lin
-e 109.
+e 113.
 
 
 LaTeX Warning: Citation ` stokes2003female' on page 2 undefined on input line 1
-09.
+13.
 
 
-LaTeX Warning: Citation `mitani2002recent' on page 2 undefined on input line 10
-9.
+LaTeX Warning: Citation `mitani2002recent' on page 2 undefined on input line 11
+3.
 
 
 LaTeX Warning: Citation ` watts1989infanticide' on page 2 undefined on input li
-ne 109.
+ne 113.
+
+[2]
+
+LaTeX Warning: Citation `allport171shepard' on page 3 undefined on input line 1
+48.
 
 
-Underfull \vbox (badness 4001) has occurred while \output is active []
+LaTeX Warning: Citation `unity14' on page 3 undefined on input line 148.
 
- [2]
-[3] [4] [5] [6] [7] [8] <bfeed_mob.png, id=36, 501.875pt x 501.875pt>
-File: bfeed_mob.png Graphic file (type png)
 
-<use bfeed_mob.png>
-Package pdftex.def Info: bfeed_mob.png used on input line 452.
+LaTeX Warning: Citation `bell2004relationship' on page 3 undefined on input lin
+e 152.
+
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+[3]
+Overfull \hbox (2.58388pt too wide) in paragraph at lines 169--170
+\OT1/cmr/m/n/10 task (see Ta-ble 1[]). Post-menopausal women re-sponded slower 
+than reproductive-
+ []
+
+[4]
+
+LaTeX Warning: Citation `cohen1988statistical' on page 5 undefined on input lin
+e 187.
+
+[5] [6]
+
+LaTeX Warning: Reference `fig:bfeed_tot' on page 7 undefined on input line 266.
+
+
+<bfeed_tot.png, id=30, 501.875pt x 501.875pt>
+File: bfeed_tot.png Graphic file (type png)
+ <use bfeed_tot.png>
+Package pdftex.def Info: bfeed_tot.png used on input line 270.
 (pdftex.def)             Requested size: 253.5pt x 253.5023pt.
- [9] [10]
-File: bfeed_mob.png Graphic file (type png)
- <use bfeed_mob.png>
-Package pdftex.def Info: bfeed_mob.png used on input line 474.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7]
+
+LaTeX Warning: Reference `fig:wm_acctot' on page 8 undefined on input line 295.
+
+
+<mw_acctot.png, id=35, 501.875pt x 501.875pt>
+File: mw_acctot.png Graphic file (type png)
+ <use mw_acctot.png>
+Package pdftex.def Info: mw_acctot.png used on input line 299.
 (pdftex.def)             Requested size: 253.5pt x 253.5023pt.
- [11 <C:/Users/Layne Vashro/Documents/GitHub/anthro/womenmob/paper/bfeed_mob.pn
-g>] [12]
-("C:\Users\Layne Vashro\Documents\GitHub\anthro\womenmob\paper\template.aux")
+ [8 <C:/Users/Layne Vashro/Documents/GitHub/anthro/womenmob/paper/bfeed_tot.png
+>]
+Overfull \hbox (12.19505pt too wide) in paragraph at lines 309--310
+\OT1/cmr/m/n/10 mea-sure. Post-menopausal women re-ported much lower anx-i-ety 
+than reproductive-
+ []
+
+[9 <C:/Users/Layne Vashro/Documents/GitHub/anthro/womenmob/paper/mw_acctot.png>
+] [10]
+("C:\Users\Layne Vashro\Documents\GitHub\anthro\womenmob\paper\lactamotion_4131
+5.aux")
+
+LaTeX Warning: There were undefined references.
+
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 1859 strings out of 493921
- 27072 string characters out of 3147260
- 85416 words of memory out of 3000000
- 5185 multiletter control sequences out of 15000+200000
+ 1853 strings out of 493921
+ 27152 string characters out of 3147260
+ 79235 words of memory out of 3000000
+ 5178 multiletter control sequences out of 15000+200000
  7639 words of font info for 27 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 27i,8n,20p,1334b,220s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 27i,9n,20p,1841b,226s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
-fonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.p
-fb>
-Output written on template.pdf (12 pages, 156948 bytes).
+X 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb
+><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Progr
+am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmti10.pfb>
+Output written on lactamotion_41315.pdf (10 pages, 197689 bytes).
 PDF statistics:
- 79 PDF objects out of 1000 (max. 8388607)
+ 95 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

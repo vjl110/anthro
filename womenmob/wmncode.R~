@@ -5,6 +5,115 @@ setwd("~/GitHub/anthro")
 ######
 
 inf <- read.csv("womenmob/data/tweinfo.csv", strip.white = T)
+mr <- read.csv("womenmob/data/MR_bytrial.csv", strip.white = T)
+rep <- read.csv("womenmob/data/repro.csv", strip.white = T)
+cog <- read.csv("womenmob/data/cog.csv", strip.white = T)
+psp <- read.csv("womenmob/data/persp_err.csv", strip.white = T)
+pnt <- read.csv("womenmob/data/pnt_byrow.csv", strip.white = T)
+	pnt <- pnt[c(1:2, 5, 10:11)]
+	pnt$Bearing_Difference <- abs(pnt$Bearing_Difference)
+
+# PREPROCESSING
+
+	#MENTAL ROTATION DATA
+#	mr <- subset(mr, RT <= 30)
+	mr <- mr[c(1, 5:6)]
+	mr <- aggregate( . ~ Subject, data = mr, mean)
+	colnames(mr)[1] <- "ID"
+
+	#PERSPECTIVE TAKING DATA
+	psp <- merge(inf, psp, by="ID")
+	for(i in 1:nrow(psp)){
+		psp$avg[i] <- ifelse(is.na(mean(as.numeric(abs(psp[i, 9:20])))), NA, mean(as.numeric(abs(psp[i, 9:20]))))
+	}
+
+	#POINTING DATA
+	hld <- merge(pnt, inf, by="ID", all.x = T)
+	# First step is to remove distance component then calculate an average score for individuals.
+	hld$Distance_Meters <- scale(hld$Distance_Meters)
+		hld$Distance_Meters <- hld$Distance_Meters - min(hld$Distance_Meters, na.rm=T)
+	hld$Bearing_Difference <- scale(hld$Bearing_Difference)
+		hld$Bearing_Difference <- hld$Bearing_Difference - min(hld$Bearing_Difference, na.rm=T)	
+	library(lme4)
+	dist <- lmer(Bearing_Difference ~ Distance_Meters
+		     + (Distance_Meters | ID), data = hld)
+	hld$Bearing_Difference <- hld$Bearing_Difference - fixef(dist)[2]*hld$Distance_Meters
+		#	dist <- lm(Bearing_Difference ~ Distance_Meters, hlda = hld)
+		#	hld$Bearing_Difference <- hld$Bearing_Difference - coef(dist)[2]*hld$Distance_Meters
+	hld <- hld[,c(1,4)]
+	hld <- aggregate( . ~ ID, data = hld, mean)
+	colnames(hld)[2] <- "pnt.err" 
+
+dat <- merge(inf[1:4], mr, by = "ID", all.x=T)
+dat <- merge(dat, cog[,c(1,5)], by = "ID", all.x=T)
+dat <- merge(dat, rep[c(1,4)], by = "ID", all.x=T)
+dat <- merge(dat, psp[c(1, ncol(psp))], by = "ID", all.x=T)
+dat <- merge(dat, hld, by = "ID", all.x=T)
+
+dat <- subset(dat, male == 0 & age <= 50)
+
+m1 <- lm(scale(Acc) ~ bfeed, data = dat)
+
+m1 <- lm(I(scale(Acc) - scale(RT) + scale(span)) ~ bfeed, data = dat)
+
+
+library("lavaan")
+
+model <- '
+	# measurement model
+	space =~ Acc + RT + span
+	# regression
+	bfeed ~ space'
+fit <- sem(model, data = dat)
+summary(fit, standardized = TRUE)
+
+
+
+
+
+
+
+
+dat <- subset(dat, male == 0 & age <= 45)
+
+
+
+
+
+
+
+
+acc_bydeg <- c()
+dx <- 1
+for(i in c(sort(unique(mr$Degree)))){
+	acc_bydeg[dx] <- mean(mr$Acc[mr$Degree == i], na.rm=T)
+	dx <- dx + 1
+}
+rt_bydeg <- c()
+dx <- 1
+for(i in c(sort(unique(mr$Degree)))){
+	rt_bydeg[dx] <- mean(mr$RT[mr$Degree == i], na.rm=T)
+	dx <- dx + 1
+}
+
+
+png("acc_deg.png", height = 500, width = 500)
+plot(acc_bydeg, xlab = "Degree Rotation", ylab = "% Correct", main = "", xaxt="n", pch = 16, font=2, font.lab = 2)
+axis(1, at=1:length(unique(mr$Degree)), labels=sort(unique(mr$Degree)), font = 2)
+dev.off()
+
+png("rt_deg.png", height = 500, width = 500)
+plot(rt_bydeg, xlab = "Degree Rotation", ylab = "Response time (seconds)", main = "", xaxt="n", pch = 16, font=2, font.lab = 2)
+axis(1, at=1:length(unique(mr$Degree)), labels=sort(unique(mr$Degree)), font = 2)
+dev.off()
+
+
+
+
+
+
+
+inf <- read.csv("womenmob/data/tweinfo.csv", strip.white = T)
 rep <- read.csv("womenmob/data/repro.csv", strip.white = T)
 mob <- read.csv("womenmob/data/yrmob.csv", strip.white = T)
 srvy <- read.csv("womenmob/data/survey.csv", strip.white = T)
@@ -20,20 +129,30 @@ psp <- read.csv("womenmob/data/persp_err.csv", strip.white = T)
 	srvy$sax[i] <- 4 - mean(c(srvy$SAX1[i], srvy$SAX2[i], srvy$SAX3[i], (4 - srvy$SAX4[i])), na.rm=T)   	
 }
 
-dat <- merge(inf, rep, by="ID")
+dat <- merge(inf, rep, by="ID" )
 dat <- merge(dat, raw, by="ID")
 	dat <- subset(dat, male == 0 & age < 45)
 
-dat <- merge(inf, rep, by="ID")
-dat <- merge(dat, mob, by="ID")
-dat <- merge(dat, cog, by="ID")
+dat <- merge(inf, rep, by="ID", all.x =T)
+dat <- merge(dat, mob, by="ID", all.x =T)
+dat <- merge(dat, cog, by="ID", all.x =T)
+dat <- merge(dat, psp[c(1,ncol(psp))], by="ID", all.x =T)
+	dat <- subset(dat, male == 0)
+dat$span <- scale(dat$span)
+dat$mr.acc <- scale(dat$mr.acc)
+dat$mr.time <- scale(dat$mr.time)
+dat$avg <- scale(dat$avg)
+
+for(i in 1:nrow(dat)){
+	dat$space[i] <- mean(c(dat$span[i], dat$mr.acc[i], -dat$mr.time[i], -dat$avg[i]), na.rm=T)
+}
 
 TRK <- merge(trk, inf, by= "ID", all.x = TRUE)
 TRK <- merge(TRK, rep, by= "ID", all.x = TRUE)
 
 psp <- merge(inf, psp, by="ID")
 	for(i in 1:nrow(psp)){
-		psp$avg[i] <- mean(as.numeric(abs(psp[i, 9:20])), na.rm = T)
+		psp$avg[i] <- ifelse(is.na(mean(as.numeric(abs(psp[i, 9:20])))), NA, mean(as.numeric(abs(psp[i, 9:20]))))
 	}
 	
 	##########  ATTEMPTING TO DEAL W/ INCOMPLETE DAY ISSUE ##########
@@ -83,3 +202,19 @@ lines(TRK$age[TRK$male == 1], TRK$lws[TRK$male == 1], col = 'black', lwd = 2)
 
 dev.off()
 
+
+
+
+
+
+
+
+
+dat <- merge(inf, rep, by="ID", all.x =T)
+dat <- merge(dat, mob, by="ID", all.x =T)
+dat <- merge(dat, cog, by="ID", all.x =T)
+library("lavaan")
+
+
+MR <- scale(scale(dat$mr.acc[!is.na(dat$mr.acc) & !is.na(dat$span)]) - scale(dat$mr.time[!is.na(dat$mr.acc) & !is.na(dat$span)]))
+CR <- scale(dat$span[!is.na(dat$mr.acc) & !is.na(dat$span)])
