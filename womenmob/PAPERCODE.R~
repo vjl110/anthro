@@ -1,6 +1,6 @@
 rm(list=ls())
 setwd("~/GitHub/anthro")
-
+library(effsize)
 ######
 ######
 ######
@@ -66,22 +66,154 @@ dat <- merge(dat, srvy[c(1,31:33)], by = "ID", all.x=T)
 dat <- merge(dat, ltm[c(1,22)], by = "ID", all.x=T)
 dat <- merge(dat, trk[c(1,6)], by = "ID", all.x=T)
 
-tst <- merge(inf, srvy, by = "ID", all.x=T)
-#dat <- merge(dat, srvy[c(1,21:30)], by = "ID", all.x=T)
 
-#dat <- subset(dat, male == 0 & age <= 50)
-#dat <- subset(dat, male == 0 & pst.repro != 1)
+# QQ plots for paper.
+png("QQ_sex.png", height = 750, width = 500)
+par(mfrow=c(3,2))
+	abmin <- min(c(dat$Acc[dat$male == 1 & dat$Acc >= .5], dat$Acc[dat$male == 0 & dat$Acc >= .5]), na.rm=T)
+	abmax <- max(c(dat$Acc[dat$male == 1 & dat$Acc >= .5], dat$Acc[dat$male == 0 & dat$Acc >= .5]), na.rm=T)
+qqplot(dat$Acc[dat$male == 1 & dat$Acc >= .5], dat$Acc[dat$male == 0 & dat$Acc >= .5], xlim = c(abmin, abmax), ylim = c(abmin, abmax), font = 2, font.lab = 2, pch = 16, cex.lab = 1.5, cex.main = 1.5,
+		xlab = "Men", ylab = "Women", main = "Mental rotation (accuracy)")
+	abline(0,1, col = "grey", lwd = 2)
 
-png("bfeed_tot.png", height = 500, width = 500)
-plot(NULL, xlim=c(18, 50), ylim=c(0,8), ylab = "Unique Visits", xlab = "Age", font = 2, font.lab = 2, cex = 1.5, cex.lab = 1.5)
-	points(jitter(dat$age[dat$male == 0 & dat$bfeed == 1]), jitter(dat$tot[dat$male == 0 & dat$bfeed == 1]), pch = 16, col = "black")
-		lws <- loess(tot ~ age, data = subset(dat, male == 0 & bfeed == 1), span = .9)
-		lines(18:50, predict(lws, 18:50), col = "black", lwd = 2)
-	points(jitter(dat$age[dat$male == 0 & dat$bfeed == 0]), jitter(dat$tot[dat$male == 0 & dat$bfeed == 0]), pch = 17, col = "dark grey")
-		lws <- loess(tot ~ age, data = subset(dat, male == 0 & bfeed == 0), span = .9)
-		lines(18:50, predict(lws, 18:50), col = "dark grey", lwd = 2, lty = 2)
-	legend("topleft", c("Currently breastfeeding", "Not breastfeeding"), pch = c(16, 17), col = c("black", "dark grey"), bty = "n", cex = 1.5) 
+	abmin <- min(c(dat$pnt.err[dat$male == 1], dat$pnt.err[dat$male == 0]), na.rm=T)
+	abmax <- max(c(dat$pnt.err[dat$male == 1], dat$pnt.err[dat$male == 0]), na.rm=T)
+qqplot(dat$pnt.err[dat$male == 1], dat$pnt.err[dat$male == 0], xlim = c(abmin, abmax), ylim = c(abmin, abmax), font = 2, font.lab = 2, pch = 16, cex.lab = 1.5, cex.main = 1.5,
+		xlab = "Men", ylab = "Women", main = "Pointing error")
+	abline(0,1, col = "grey", lwd = 2)
+
+	abmin <- min(c(dat$sax[dat$male == 1], dat$sax[dat$male == 0]), na.rm=T)
+	abmax <- max(c(dat$sax[dat$male == 1], dat$sax[dat$male == 0]), na.rm=T)
+qqplot(dat$sax[dat$male == 1], dat$sax[dat$male == 0], xlim = c(abmin, abmax), ylim = c(abmin, abmax), font = 2, font.lab = 2, pch = 16, cex.lab = 1.5, cex.main = 1.5,
+		xlab = "Men", ylab = "Women", main = "Spatial anxiety")
+	abline(0,1, col = "grey", lwd = 2)
+
+	abmin <- min(c(dat$tot[dat$male == 1], dat$tot[dat$male == 0]), na.rm=T)
+	abmax <- max(c(dat$tot[dat$male == 1], dat$tot[dat$male == 0]), na.rm=T)
+qqplot(dat$tot[dat$male == 1], dat$tot[dat$male == 0], xlim = c(abmin, abmax), ylim = c(abmin, abmax), font = 2, font.lab = 2, pch = 16, cex.lab = 1.5, cex.main = 1.5,
+		xlab = "Men", ylab = "Women", main = "Annual mobility")
+	abline(0,1, col = "grey", lwd = 2)
+
+	abmin <- min(c(dat$avc[dat$male == 1], dat$avc[dat$male == 0]), na.rm=T)
+	abmax <- max(c(dat$avc[dat$male == 1], dat$avc[dat$male == 0]), na.rm=T)
+qqplot(dat$avc[dat$male == 1], dat$avc[dat$male == 0], xlim = c(abmin, abmax), ylim = c(abmin, abmax), font = 2, font.lab = 2, pch = 16, cex.lab = 1.5, cex.main = 1.5,
+		xlab = "Men", ylab = "Women", main = "% of trips solo")
+	abline(0,1, col = "grey", lwd = 2)
+
+	abmin <- min(c(dat$net[dat$male == 1], dat$net[dat$male == 0]), na.rm=T)
+	abmax <- max(c(dat$net[dat$male == 1], dat$net[dat$male == 0]), na.rm=T)
+qqplot(dat$net[dat$male == 1], dat$net[dat$male == 0], xlim = c(abmin, abmax), ylim = c(abmin, abmax), font = 2, font.lab = 2, pch = 16, cex.lab = 1.5, cex.main = 1.5,
+		xlab = "Men", ylab = "Women", main = "Daily mobility")
+	abline(0,1, col = "grey", lwd = 2)
 dev.off()
+
+png("QQ_pst.png", height = 500, width = 500)
+par(mfrow=c(2,2))
+	abmin <- min(c(dat$sax[dat$male == 0 & dat$pst.repro == 1], dat$sax[dat$male == 0 & dat$pst.repro  == 0]), na.rm=T)
+	abmax <- max(c(dat$sax[dat$male == 0 & dat$pst.repro == 1], dat$sax[dat$male == 0 & dat$pst.repro  == 0]), na.rm=T)
+qqplot(dat$sax[dat$male == 0 & dat$pst.repro == 1], dat$sax[dat$male == 0 & dat$pst.repro == 0], xlim = c(abmin, abmax), ylim = c(abmin, abmax), font = 2, font.lab = 2, pch = 16, cex.lab = 1.5, cex.main = 1.5,
+		xlab = "Postmenopausal", ylab = "Reproductive-aged", main = "Spatial anxiety")
+	abline(0,1, col = "grey", lwd = 2)
+
+	abmin <- min(c(dat$tot[dat$male == 0 & dat$pst.repro == 1], dat$tot[dat$male == 0 & dat$pst.repro  == 0]), na.rm=T)
+	abmax <- max(c(dat$tot[dat$male == 0 & dat$pst.repro == 1], dat$tot[dat$male == 0 & dat$pst.repro  == 0]), na.rm=T)
+qqplot(dat$tot[dat$male == 0 & dat$pst.repro == 1], dat$tot[dat$male == 0 & dat$pst.repro == 0], xlim = c(abmin, abmax), ylim = c(abmin, abmax), font = 2, font.lab = 2, pch = 16, cex.lab = 1.5, cex.main = 1.5,
+		xlab = "Postmenopausal", ylab = "Reproductive-aged", main = "Annual mobility")
+	abline(0,1, col = "grey", lwd = 2)
+
+	abmin <- min(c(dat$avc[dat$male == 0 & dat$pst.repro == 1], dat$avc[dat$male == 0 & dat$pst.repro  == 0]), na.rm=T)
+	abmax <- max(c(dat$avc[dat$male == 0 & dat$pst.repro == 1], dat$avc[dat$male == 0 & dat$pst.repro  == 0]), na.rm=T)
+qqplot(dat$avc[dat$male == 0 & dat$pst.repro == 1], dat$avc[dat$male == 0 & dat$pst.repro == 0], xlim = c(abmin, abmax), ylim = c(abmin, abmax), font = 2, font.lab = 2, pch = 16, cex.lab = 1.5, cex.main = 1.5,
+		xlab = "Postmenopausal", ylab = "Reproductive-aged", main = "% of trips solo")
+	abline(0,1, col = "grey", lwd = 2)
+
+	abmin <- min(c(dat$net[dat$male == 0 & dat$pst.repro == 1], dat$net[dat$male == 0 & dat$pst.repro  == 0]), na.rm=T)
+	abmax <- max(c(dat$net[dat$male == 0 & dat$pst.repro == 1], dat$net[dat$male == 0 & dat$pst.repro  == 0]), na.rm=T)
+qqplot(dat$net[dat$male == 0 & dat$pst.repro == 1], dat$net[dat$male == 0 & dat$pst.repro == 0], xlim = c(abmin, abmax), ylim = c(abmin, abmax), font = 2, font.lab = 2, pch = 16, cex.lab = 1.5, cex.main = 1.5,
+		xlab = "Postmenopausal", ylab = "Reproductive-aged", main = "Daily mobility")
+	abline(0,1, col = "grey", lwd = 2)
+dev.off()
+
+
+
+png("lactmob.png", height = 500, width = 500)
+plot(NULL, xlim=c(18, 70), ylim=c(0,8), ylab = "Annual mobility", xlab = "Age", main = "Women's mobility across age and reproductive status", font = 2, font.lab = 2, cex = 1.25, cex.lab = 1.25, cex.main = 1.25)
+	points(jitter(dat$age[dat$male == 0 & dat$bfeed == 1 & dat$ID != 106]), jitter(dat$tot[dat$male == 0 & dat$bfeed == 1 & dat$ID != 106]), pch = 16, col = "black")
+		lws <- loess(tot ~ age, data = subset(dat, male == 0 & bfeed == 1 & ID != 106), span = 1)
+			plx <- predict(lws, 18:70, se=T)
+			lines(18:70, plx$fit, col = "black", lwd = 2)
+			lines(18:70, plx$fit - plx$se, col = "black", lwd = 1, lty = 2)
+			lines(18:70, plx$fit + plx$se, col = "black", lwd = 1, lty = 2)
+	points(jitter(dat$age[dat$male == 0 & dat$bfeed == 0 & dat$preg == 0]), jitter(dat$tot[dat$male == 0 & dat$bfeed == 0 & dat$preg == 0]), pch = 17, col = "dark grey")
+		lws <- loess(tot ~ age, data = subset(dat, male == 0 & bfeed == 0 & preg == 0), span = 1)
+			plx <- predict(lws, 18:70, se=T)
+			lines(18:70, plx$fit, col = "dark grey", lwd = 2, lty = 1)
+			lines(18:70, plx$fit - plx$se, col = "dark grey", lwd = 1, lty = 2)
+			lines(18:70, plx$fit + plx$se, col = "dark grey", lwd = 1, lty = 2)
+	abline(v = 50, lty = 3)
+	#legend("topleft", c("Currently breastfeeding", "Not breastfeeding"), pch = c(16, 17), col = c("black", "dark grey"), bty = "n", cex = 1.5) 
+dev.off()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+png("QQ_3_sax.png", height = 500, width = 500)
+par(mfrow=c(2,2))
+	abmin <- min(c(dat$sax[dat$male == 1], dat$sax[dat$male == 0]), na.rm=T)
+	abmax <- max(c(dat$sax[dat$male == 1], dat$sax[dat$male == 0]), na.rm=T)
+qqplot(dat$sax[dat$male == 1], dat$sax[dat$male == 0], xlim = c(abmin, abmax), ylim = c(abmin, abmax), font = 2, font.lab = 2, pch = 16,
+		xlab = "Men", ylab = "Women", main = "Spatial Anxiety")
+	abline(0,1, col = "red", lwd = 2)
+
+	abmin <- min(c(dat$sax[dat$male == 0 & dat$pst.repro == 1], dat$sax[dat$male == 0 & dat$pst.repro  == 0]), na.rm=T)
+	abmax <- max(c(dat$sax[dat$male == 0 & dat$pst.repro == 1], dat$sax[dat$male == 0 & dat$pst.repro  == 0]), na.rm=T)
+qqplot(dat$sax[dat$male == 0 & dat$pst.repro == 1], dat$sax[dat$male == 0 & dat$pst.repro == 0], xlim = c(abmin, abmax), ylim = c(abmin, abmax), font = 2, font.lab = 2, pch = 16,
+		xlab = "Postmenopausal", ylab = "Reproductive-aged", main = "Spatial Anxiety")
+	abline(0,1, col = "red", lwd = 2)
+
+	abmin <- min(c(dat$sax[dat$male == 0 & dat$bfeed == 1], dat$sax[dat$male == 0 & dat$bfeed == 0 & dat$preg == 0]), na.rm=T)
+	abmax <- max(c(dat$sax[dat$male == 0 & dat$bfeed == 1], dat$sax[dat$male == 0 & dat$bfeed == 0 & dat$preg == 0]), na.rm=T)
+qqplot(dat$sax[dat$male == 0 & dat$bfeed == 1], dat$sax[dat$male == 0 & dat$bfeed == 0 & dat$preg == 0], xlim = c(abmin, abmax), ylim = c(abmin, abmax), font = 2, font.lab = 2, pch = 16,
+		xlab = "Breastfeeding", ylab = "Not Breastfeeding", main = "Spatial Anxiety")
+	abline(0,1, col = "red", lwd = 2)
+
+	abmin <- min(c(dat$sax[dat$male == 0 & dat$preg == 1], dat$sax[dat$male == 0 & dat$bfeed == 0 & dat$preg == 0]), na.rm=T)
+	abmax <- max(c(dat$sax[dat$male == 0 & dat$preg == 1], dat$sax[dat$male == 0 & dat$bfeed == 0 & dat$preg == 0]), na.rm=T)
+qqplot(dat$sax[dat$male == 0 & dat$preg == 1], dat$sax[dat$male == 0 & dat$bfeed == 0 & dat$preg == 0], xlim = c(abmin, abmax), ylim = c(abmin, abmax), font = 2, font.lab = 2, pch = 16,
+		xlab = "Pregnant", ylab = "Not Pregnant", main = "Spatial Anxiety")
+	abline(0,1, col = "red", lwd = 2)
+dev.off()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 png("menvwom_acctot.png", height = 500, width = 500)
@@ -95,12 +227,6 @@ points(dat$Acc[dat$male == 1 & dat$Acc >= .5], dat$tot[dat$male == 1 & dat$Acc >
 points(dat$Acc[dat$male == 0 & dat$Acc >= .5], dat$tot[dat$male == 0 & dat$Acc >= .5], pch = 16, col = "salmon")
 	lines(prd$Acc, prd$f, col = "red", lwd = 2)
 dev.off()
-
-
-
-
-
-
 
 
 

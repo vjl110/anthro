@@ -1,0 +1,341 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.16)  19 APR 2015 11:00
+entering extended mode
+**lactamotion_41615.tex
+(C:\Users\Layne\Documents\GitHub\anthro\womenmob\paper\lactamotion_41615.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+
+LaTeX Warning: File `example.eps' already exists on the system.
+               Not generating it from this source.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\fix-cm.sty"
+Package: fix-cm 2006/09/13 v1.1m fixes to LaTeX
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1enc.def"
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+))
+(C:\Users\Layne\Documents\GitHub\anthro\womenmob\paper\svjour3.cls
+Document Class: svjour3 2007/05/08 v3.2 
+LaTeX document class for Springer journals
+Class Springer-SVJour3 Info: extra/valid Springer sub-package (-> *.clo) 
+(Springer-SVJour3)           not found in option list of \documentclass
+(Springer-SVJour3)           - autoactivating "global" style.
+(C:\Users\Layne\Documents\GitHub\anthro\womenmob\paper\svglov3.clo
+File: svglov3.clo 2009/12/18 v3.2 style option for standardised journals
+
+SVJour Class option: svglov3.clo for standardised journals
+)
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 147.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 148.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 149.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 150.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 151.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 152.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 153.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 154.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 155.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 156.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 157.
+\logodepth=\dimen102
+\headerboxheight=\dimen103
+\betweenumberspace=\dimen104
+\aftertext=\dimen105
+\headlineindent=\dimen106
+\c@inst=\count79
+\c@auth=\count80
+\instindent=\dimen107
+\authrun=\box26
+\authorrunning=\toks14
+\titrun=\box27
+\titlerunning=\toks15
+\combirun=\box28
+\c@lastpage=\count81
+\rubricwidth=\dimen108
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\spthmsep=\dimen109
+\c@theorem=\count87
+\c@case=\count88
+\c@conjecture=\count89
+\c@corollary=\count90
+\c@definition=\count91
+\c@example=\count92
+\c@exercise=\count93
+\c@lemma=\count94
+\c@note=\count95
+\c@problem=\count96
+\c@property=\count97
+\c@proposition=\count98
+\c@question=\count99
+\c@solution=\count100
+\c@remark=\count101
+\c@figure=\count102
+\c@table=\count103
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\figcapgap=\dimen110
+\tabcapgap=\dimen111
+\figgap=\dimen112
+\bibindent=\dimen113
+\@tempcntc=\count104
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count105
+))
+\Gin@req@height=\dimen114
+\Gin@req@width=\dimen115
+)
+(C:\Users\Layne\Documents\GitHub\anthro\womenmob\paper\lactamotion_41615.aux
+
+LaTeX Warning: Label `sec:3.1.2' multiply defined.
+
+
+LaTeX Warning: Label `sec:3.1.2' multiply defined.
+
+
+LaTeX Warning: Label `fig:1' multiply defined.
+
+
+LaTeX Warning: Label `fig:1' multiply defined.
+
+
+LaTeX Warning: Label `sec:3.1' multiply defined.
+
+
+LaTeX Warning: Label `fig:1' multiply defined.
+
+)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 62.
+LaTeX Font Info:    ... okay on input line 62.
+
+Unknown journal: specify \journalname{<name of your journal>} in preambel
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count106
+\scratchdimen=\dimen116
+\scratchbox=\box29
+\nofMPsegments=\count107
+\nofMParguments=\count108
+\everyMPshowfont=\toks17
+\MPscratchCnt=\count109
+\MPscratchDim=\dimen117
+\MPnumerator=\count110
+\makeMPintoPDFobject=\count111
+\everyMPtoPDFconversion=\toks18
+)
+SVJour3 warning: Missing \journalname
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 87.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 87.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 87.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 87.
+
+Overfull \hbox (0.38948pt too wide) in paragraph at lines 99--100
+\OT1/cmr/m/n/10 spatial-cognitive and nav-i-ga-tional tasks. These dif-fer-ence
+s are well-documented
+ []
+
+
+Overfull \hbox (32.25082pt too wide) in paragraph at lines 99--100
+\OT1/cmr/m/n/10 (mates [[]], hunt-ing [[]], or war-fare [[]]).
+ []
+
+[1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+
+LaTeX Warning: Citation ` sear2008keeps' on page 2 undefined on input line 105.
+
+
+
+Overfull \hbox (64.19543pt too wide) in paragraph at lines 105--106
+\OT1/cmr/m/n/10 making [[]] [[]] [[]]. 
+ []
+
+
+Overfull \hbox (9.5285pt too wide) in paragraph at lines 107--108
+\OT1/cmr/m/n/10 com-mon cause of death world-wide [[]],
+ []
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 115--116
+
+ []
+
+
+LaTeX Warning: Citation `sanders1982sex' on page 3 undefined on input line 117.
+
+
+
+LaTeX Warning: Citation `moffat1998navigation' on page 3 undefined on input lin
+e 117.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--122
+
+ []
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 125--126
+
+ []
+
+
+LaTeX Warning: Citation `jones2003evolution' on page 4 undefined on input line 
+127.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--134
+
+ []
+
+
+Underfull \vbox (badness 7397) has occurred while \output is active []
+
+ [4]
+Overfull \hbox (2.58388pt too wide) in paragraph at lines 166--167
+\OT1/cmr/m/n/10 task (see Ta-ble 1[]). Post-menopausal women re-sponded slower 
+than reproductive-
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[5] <QQ_3_Acc.png, id=23, 501.875pt x 501.875pt>
+File: QQ_3_Acc.png Graphic file (type png)
+ <use QQ_3_Acc.png>
+Package pdftex.def Info: QQ_3_Acc.png used on input line 219.
+(pdftex.def)             Requested size: 253.5pt x 253.5023pt.
+
+Underfull \vbox (badness 1024) has occurred while \output is active []
+
+ [6]
+[7 <C:/Users/Layne/Documents/GitHub/anthro/womenmob/paper/QQ_3_Acc.png>]
+<QQ_3_sax.png, id=36, 501.875pt x 501.875pt>
+File: QQ_3_sax.png Graphic file (type png)
+ <use QQ_3_sax.png>
+Package pdftex.def Info: QQ_3_sax.png used on input line 250.
+(pdftex.def)             Requested size: 253.5pt x 253.5023pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[8 <C:/Users/Layne/Documents/GitHub/anthro/womenmob/paper/QQ_3_sax.png>]
+<QQ_3_tot.png, id=41, 501.875pt x 501.875pt>
+File: QQ_3_tot.png Graphic file (type png)
+ <use QQ_3_tot.png>
+Package pdftex.def Info: QQ_3_tot.png used on input line 289.
+(pdftex.def)             Requested size: 253.5pt x 253.5023pt.
+
+
+LaTeX Warning: Reference `fig:bfeed_tot' on page 9 undefined on input line 295.
+
+
+
+LaTeX Warning: Reference `fig:wm_acctot' on page 9 undefined on input line 317.
+
+
+[9] <mw_acctot.png, id=48, 501.875pt x 501.875pt>
+File: mw_acctot.png Graphic file (type png)
+ <use mw_acctot.png>
+Package pdftex.def Info: mw_acctot.png used on input line 321.
+(pdftex.def)             Requested size: 253.5pt x 253.5023pt.
+
+Overfull \hbox (12.19505pt too wide) in paragraph at lines 331--332
+\OT1/cmr/m/n/10 mea-sure. Post-menopausal women re-ported much lower anx-i-ety 
+than reproductive-
+ []
+
+[10 <C:/Users/Layne/Documents/GitHub/anthro/womenmob/paper/QQ_3_tot.png>]
+(C:\Users\Layne\Documents\GitHub\anthro\womenmob\paper\lactamotion_41615.bbl
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [11 <C:/Users/Layne/Documents/GitHub/anthro/womenmob/paper/mw_acctot.png>]) [1
+2]
+(C:\Users\Layne\Documents\GitHub\anthro\womenmob\paper\lactamotion_41615.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 1882 strings out of 493921
+ 27764 string characters out of 3144876
+ 82696 words of memory out of 3000000
+ 5202 multiletter control sequences out of 15000+200000
+ 7639 words of font info for 27 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 27i,9n,20p,1824b,286s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
+:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/P
+rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Pro
+gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Progra
+m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program F
+iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program File
+s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x
+86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files (x86)/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on lactamotion_41615.pdf (12 pages, 222015 bytes).
+PDF statistics:
+ 105 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+

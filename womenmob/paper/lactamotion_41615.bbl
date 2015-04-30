@@ -1,0 +1,85 @@
+\begin{thebibliography}{18}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{{#1}}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{DOI~\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{DOI~\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem[{Bell and Saucier(2004)}]{bell2004relationship}
+Bell S, Saucier D (2004) Relationship among environmental pointing accuracy,
+  mental rotation, sex, and hormones. Environment and Behavior 36(2):251--265
+
+\bibitem[{Cohen(1988)}]{cohen1988statistical}
+Cohen J (1988) Statistical power for the social sciences. Hillsdale, NJ:
+  Laurence Erlbaum and Associates
+
+\bibitem[{Eals and Silverman(1994)}]{eals1994hunter}
+Eals M, Silverman I (1994) The hunter-gatherer theory of spatial sex
+  differences: Proximate factors mediating the female advantage in recall of
+  object arrays. Ethology and Sociobiology 15(2):95--105
+
+\bibitem[{Gaulin(1992)}]{gaulin1992evolution}
+Gaulin SJ (1992) Evolution of sex difference in spatial ability. American
+  Journal of Physical Anthropology 35(S15):125--151
+
+\bibitem[{Geary(1995)}]{geary1995sexual}
+Geary DC (1995) Sexual selection and sex differences in spatial cognition.
+  Learning and Individual Differences 7(4):289--301
+
+\bibitem[{Gray and Buffery(1971)}]{gray1971sex}
+Gray JA, Buffery AW (1971) Sex differences in emotional and cognitive behaviour
+  in mammals including man: adaptive and neural bases. Acta Psychologica
+  35(2):89--111
+
+\bibitem[{Hill and Hurtado(1996)}]{hill1996ache}
+Hill KR, Hurtado AM (1996) Ache life history: The ecology and demography of a
+  foraging people. Transaction Publishers
+
+\bibitem[{Jianakoplos and Bernasek(1998)}]{jianakoplos1998women}
+Jianakoplos NA, Bernasek A (1998) Are women more risk averse? Economic inquiry
+  36(4):620--630
+
+\bibitem[{Krug et~al(2000)Krug, Sharma, and Lozano}]{krug2000global}
+Krug EG, Sharma GK, Lozano R (2000) The global burden of injuries. American
+  journal of public health 90(4):523
+
+\bibitem[{Mitani et~al(2002)Mitani, Watts, and Muller}]{mitani2002recent}
+Mitani JC, Watts DP, Muller MN (2002) Recent developments in the study of wild
+  chimpanzee behavior. Evolutionary anthropology: Issues, news, and reviews
+  11(1):9--25
+
+\bibitem[{Murphy et~al(2010)Murphy, Xu, and Kochanek}]{sherry2010cdc}
+Murphy SL, Xu J, Kochanek KD (2010) National vital statistics reports. National
+  Vital Statistics Reports 61(4)
+
+\bibitem[{Sear and Mace(2008)}]{sear2008keeps}
+Sear R, Mace R (2008) Who keeps children alive? a review of the effects of kin
+  on child survival. Evolution and human behavior 29(1):1--18
+
+\bibitem[{Shepard and Metzler(1971)}]{shepard1971mental}
+Shepard RN, Metzler J (1971) Mental rotation of three-dimensional objects
+
+\bibitem[{Sherry and Hampson(1997)}]{sherry1997evolution}
+Sherry DF, Hampson E (1997) Evolution and the hormonal control of
+  sexually-dimorphic spatial abilities in humans. Trends in Cognitive Sciences
+  1(2):50--56
+
+\bibitem[{{T}echnologies(2014)}]{unity14}
+{T}echnologies U (2014) Unity {3D}
+
+\bibitem[{Watts(1989)}]{watts1989infanticide}
+Watts DP (1989) Infanticide in mountain gorillas: new cases and a
+  reconsideration of the evidence. Ethology 81(1):1--18
+
+\bibitem[{Wilson and Daly(1985)}]{wilson1985competitiveness}
+Wilson M, Daly M (1985) Competitiveness, risk taking, and violence: The young
+  male syndrome. Ethology and sociobiology 6(1):59--73
+
+\bibitem[{Wilson and Daly(1997)}]{wilson1997life}
+Wilson M, Daly M (1997) Life expectancy, economic inequality, homicide, and
+  reproductive timing in chicago neighbourhoods. Bmj 314(7089):1271
+
+\end{thebibliography}

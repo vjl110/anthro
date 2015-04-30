@@ -1,0 +1,19 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: lactamotion_41615.aux
+White space in argument---line 10 of file lactamotion_41615.aux
+ : \citation{hill1996ache,
+ :                         sear2008keeps}
+I'm skipping whatever remains of this command
+White space in argument---line 18 of file lactamotion_41615.aux
+ : \citation{watts1989infanticide,
+ :                                 stokes2003female}
+I'm skipping whatever remains of this command
+White space in argument---line 19 of file lactamotion_41615.aux
+ : \citation{mitani2002recent,
+ :                             watts1989infanticide}
+I'm skipping whatever remains of this command
+The style file: spbasic.bst
+Database file #1: bfeed_refs.bib
+`journal' is a missing field, not a string, for entry shepard1971mental
+while executing---line 1650 of file spbasic.bst
+Warning--empty journal in shepard1971mental
+(There were 4 error messages)
