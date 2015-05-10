@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.16)  29 APR 2015 14:54
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.16)  30 APR 2015 10:04
 entering extended mode
 **fertcare_42415.tex
 (C:\Users\Layne\Documents\GitHub\anthro\womenmob\paper\fertcare_42415.tex
@@ -176,163 +176,22 @@ Overfull \hbox (0.38948pt too wide) in paragraph at lines 101--102
 s are well-documented
  []
 
-[1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
-Underfull \hbox (badness 10000) in paragraph at lines 119--120
+! I can't write on file `fertcare_42415.pdf'.
+Please type another file name for output
+! Emergency stop.
+<to be read again> 
+                   \endgroup \set@typeset@protect 
+l.106 
+      
+*** (job aborted, file error in nonstop mode)
 
- []
-
-
-Overfull \hbox (0.5284pt too wide) in paragraph at lines 121--122
-\OT1/cmr/m/n/10 human mam-mals (Jasarevic et al, 2012; Per-due et al, 2011; G
-aulin and FitzGer-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 125--126
-
- []
-
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 136--137
-
- []
-
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 148--149
-
- []
-
-
-Overfull \hbox (0.91727pt too wide) in paragraph at lines 152--153
-[]\OT1/cmr/m/n/10 One study demon-strated a pos-i-tive cor-re-la-tion be-tween 
-spa-tial abil-ity (mea-
- []
-
-[5] [6] [7]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<QQ_sex.png, id=31, 501.875pt x 752.8125pt>
-File: QQ_sex.png Graphic file (type png)
- <use QQ_sex.png>
-Package pdftex.def Info: QQ_sex.png used on input line 218.
-(pdftex.def)             Requested size: 253.5pt x 380.25346pt.
- [8] [9]
-<QQ_pst.png, id=41, 501.875pt x 501.875pt>
-File: QQ_pst.png Graphic file (type png)
- <use QQ_pst.png>
-Package pdftex.def Info: QQ_pst.png used on input line 255.
-(pdftex.def)             Requested size: 253.5pt x 253.5023pt.
-
-Underfull \vbox (badness 2932) has occurred while \output is active []
-
- [10 <C:/Users/Layne/Documents/GitHub/anthro/womenmob/paper/QQ_sex.png>]
-Overfull \hbox (19.47287pt too wide) in paragraph at lines 266--267
-[]\OT1/cmr/m/n/10 Postpartum women also per-formed con-sid-er-ably bet-ter than
- other reproductive-
- []
-
-
-Overfull \hbox (6.72285pt too wide) in paragraph at lines 268--269
-\OT1/cmr/m/n/10 women self-reported higher spa-tial anx-i-ety than other reprod
-uctive-aged women.
- []
-
-
-Overfull \hbox (9.8061pt too wide) in paragraph at lines 268--269
-\OT1/cmr/m/n/10 naire. These women re-ported lower spa-tial anx-i-ety than the 
-av-er-age reproductive-
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \vbox (badness 2050) has occurred while \output is active []
-
- [11 <C:/Users/Layne/Documents/GitHub/anthro/womenmob/paper/QQ_pst.png>]
-<lactmob.png, id=50, 501.875pt x 501.875pt>
-File: lactmob.png Graphic file (type png)
- <use lactmob.png>
-Package pdftex.def Info: lactmob.png used on input line 296.
-(pdftex.def)             Requested size: 253.5pt x 253.5023pt.
- [12]
-
-LaTeX Warning: Reference `fig:wm_acctot' on page 13 undefined on input line 343
-.
-
-
-Underfull \vbox (badness 3417) has occurred while \output is active []
-
- [13 <C:/Users/Layne/Documents/GitHub/anthro/womenmob/paper/lactmob.png>]
-<mw_acctot.png, id=63, 501.875pt x 501.875pt>
-File: mw_acctot.png Graphic file (type png)
- <use mw_acctot.png>
-Package pdftex.def Info: mw_acctot.png used on input line 347.
-(pdftex.def)             Requested size: 253.5pt x 253.5023pt.
- [14 <C:/Users/Layne/Documents/GitHub/anthro/womenmob/paper/mw_acctot.png>]
-Overfull \hbox (17.8062pt too wide) in paragraph at lines 357--358
-\OT1/cmr/m/n/10 mea-sure. Post-menopausal women re-ported lower spa-tial anx-i-
-ety than reproductive-
- []
-
-[15] (C:\Users\Layne\Documents\GitHub\anthro\womenmob\paper\fertcare_42415.bbl
-[16]
-Underfull \hbox (badness 2359) in paragraph at lines 120--122
-[]\OT1/cmr/m/n/10 Hampson E (1990) Estrogen-related vari-a-tions in hu-man spa-
-tial and
- []
-
-
-Underfull \hbox (badness 2376) in paragraph at lines 129--132
-[]\OT1/cmr/m/n/10 Hausmann M, Slabbekoorn D, Van Goozen SH, Cohen-Kettenis PT,
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [17]
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ú in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ù in font cmr10!
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [18])
-[19] (C:\Users\Layne\Documents\GitHub\anthro\womenmob\paper\fertcare_42415.aux)
-
-LaTeX Warning: There were undefined references.
-
- ) 
+ 
 Here is how much of TeX's memory you used:
- 2408 strings out of 493921
- 36625 string characters out of 3144876
- 91397 words of memory out of 3000000
- 5723 multiletter control sequences out of 15000+200000
- 7991 words of font info for 28 fonts, out of 3000000 for 9000
+ 2221 strings out of 493921
+ 31889 string characters out of 3144876
+ 86397 words of memory out of 3000000
+ 5551 multiletter control sequences out of 15000+200000
+ 6984 words of font info for 25 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 27i,9n,24p,1462b,346s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
-:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/P
-rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Pro
-gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Progra
-m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program F
-iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program File
-s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x
-86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files (x86)/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on fertcare_42415.pdf (19 pages, 261199 bytes).
-PDF statistics:
- 132 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+ 27i,5n,24p,1412b,195s stack positions out of 5000i,500n,10000p,200000b,50000s
+!  ==> Fatal error occurred, no output PDF file produced!

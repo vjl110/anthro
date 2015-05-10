@@ -69,56 +69,56 @@ dat <- merge(dat, trk[c(1,6)], by = "ID", all.x=T)
 
 # QQ plots for paper.
 png("QQ_sex.png", height = 750, width = 500)
-par(mfrow=c(3,2))
+par(mfrow=c(3,2), oma = c(0, 2, 0, 2))
 	abmin <- min(c(dat$Acc[dat$male == 1 & dat$Acc >= .5], dat$Acc[dat$male == 0 & dat$Acc >= .5]), na.rm=T)
 	abmax <- max(c(dat$Acc[dat$male == 1 & dat$Acc >= .5], dat$Acc[dat$male == 0 & dat$Acc >= .5]), na.rm=T)
-qqplot(dat$Acc[dat$male == 1 & dat$Acc >= .5], dat$Acc[dat$male == 0 & dat$Acc >= .5], xlim = c(abmin, abmax), ylim = c(abmin, abmax), font = 2, font.lab = 2, pch = 16, cex.lab = 1.5, cex.main = 1.5,
-		xlab = "Men", ylab = "Women", main = "Mental rotation (accuracy)")
+qqplot(dat$Acc[dat$male == 1 & dat$Acc >= .5], dat$Acc[dat$male == 0 & dat$Acc >= .5], xlim = c(abmin, abmax), ylim = c(abmin, abmax), font = 2, font.lab = 2, pch = 16, cex.lab = 2, cex.main = 2,
+		xlab = "", ylab = "Women", main = "Mental rotation (accuracy)")
 	abline(0,1, col = "grey", lwd = 2)
 
 	abmin <- min(c(dat$pnt.err[dat$male == 1], dat$pnt.err[dat$male == 0]), na.rm=T)
 	abmax <- max(c(dat$pnt.err[dat$male == 1], dat$pnt.err[dat$male == 0]), na.rm=T)
-qqplot(dat$pnt.err[dat$male == 1], dat$pnt.err[dat$male == 0], xlim = c(abmin, abmax), ylim = c(abmin, abmax), font = 2, font.lab = 2, pch = 16, cex.lab = 1.5, cex.main = 1.5,
-		xlab = "Men", ylab = "Women", main = "Pointing error")
+qqplot(dat$pnt.err[dat$male == 1], dat$pnt.err[dat$male == 0], xlim = c(abmin, abmax), ylim = c(abmin, abmax), font = 2, font.lab = 2, pch = 16, cex.lab = 2, cex.main = 2,
+		xlab = "", ylab = "", main = "Pointing error")
 	abline(0,1, col = "grey", lwd = 2)
 
 	abmin <- min(c(dat$sax[dat$male == 1], dat$sax[dat$male == 0]), na.rm=T)
 	abmax <- max(c(dat$sax[dat$male == 1], dat$sax[dat$male == 0]), na.rm=T)
-qqplot(dat$sax[dat$male == 1], dat$sax[dat$male == 0], xlim = c(abmin, abmax), ylim = c(abmin, abmax), font = 2, font.lab = 2, pch = 16, cex.lab = 1.5, cex.main = 1.5,
-		xlab = "Men", ylab = "Women", main = "Spatial anxiety")
+qqplot(dat$sax[dat$male == 1], dat$sax[dat$male == 0], xlim = c(abmin, abmax), ylim = c(abmin, abmax), font = 2, font.lab = 2, pch = 16, cex.lab = 2, cex.main = 2,
+		xlab = "", ylab = "Women", main = "Spatial anxiety")
 	abline(0,1, col = "grey", lwd = 2)
 
 	abmin <- min(c(dat$tot[dat$male == 1], dat$tot[dat$male == 0]), na.rm=T)
 	abmax <- max(c(dat$tot[dat$male == 1], dat$tot[dat$male == 0]), na.rm=T)
-qqplot(dat$tot[dat$male == 1], dat$tot[dat$male == 0], xlim = c(abmin, abmax), ylim = c(abmin, abmax), font = 2, font.lab = 2, pch = 16, cex.lab = 1.5, cex.main = 1.5,
-		xlab = "Men", ylab = "Women", main = "Annual mobility")
+qqplot(dat$tot[dat$male == 1], dat$tot[dat$male == 0], xlim = c(abmin, abmax), ylim = c(abmin, abmax), font = 2, font.lab = 2, pch = 16, cex.lab = 2, cex.main = 2,
+		xlab = "", ylab = "", main = "Annual mobility")
 	abline(0,1, col = "grey", lwd = 2)
 
 	abmin <- min(c(dat$avc[dat$male == 1], dat$avc[dat$male == 0]), na.rm=T)
 	abmax <- max(c(dat$avc[dat$male == 1], dat$avc[dat$male == 0]), na.rm=T)
-qqplot(dat$avc[dat$male == 1], dat$avc[dat$male == 0], xlim = c(abmin, abmax), ylim = c(abmin, abmax), font = 2, font.lab = 2, pch = 16, cex.lab = 1.5, cex.main = 1.5,
+qqplot(dat$avc[dat$male == 1], dat$avc[dat$male == 0], xlim = c(abmin, abmax), ylim = c(abmin, abmax), font = 2, font.lab = 2, pch = 16, cex.lab = 2, cex.main = 2,
 		xlab = "Men", ylab = "Women", main = "% of trips solo")
 	abline(0,1, col = "grey", lwd = 2)
 
 	abmin <- min(c(dat$net[dat$male == 1], dat$net[dat$male == 0]), na.rm=T)
 	abmax <- max(c(dat$net[dat$male == 1], dat$net[dat$male == 0]), na.rm=T)
-qqplot(dat$net[dat$male == 1], dat$net[dat$male == 0], xlim = c(abmin, abmax), ylim = c(abmin, abmax), font = 2, font.lab = 2, pch = 16, cex.lab = 1.5, cex.main = 1.5,
-		xlab = "Men", ylab = "Women", main = "Daily mobility")
+qqplot(dat$net[dat$male == 1], dat$net[dat$male == 0], xlim = c(abmin, abmax), ylim = c(abmin, abmax), font = 2, font.lab = 2, pch = 16, cex.lab = 2, cex.main = 2,
+		xlab = "Men", ylab = "", main = "Daily mobility")
 	abline(0,1, col = "grey", lwd = 2)
 dev.off()
 
 png("QQ_pst.png", height = 500, width = 500)
-par(mfrow=c(2,2))
+par(mfrow=c(2,2), omi = c(0, 1, 0, 0))
 	abmin <- min(c(dat$sax[dat$male == 0 & dat$pst.repro == 1], dat$sax[dat$male == 0 & dat$pst.repro  == 0]), na.rm=T)
 	abmax <- max(c(dat$sax[dat$male == 0 & dat$pst.repro == 1], dat$sax[dat$male == 0 & dat$pst.repro  == 0]), na.rm=T)
 qqplot(dat$sax[dat$male == 0 & dat$pst.repro == 1], dat$sax[dat$male == 0 & dat$pst.repro == 0], xlim = c(abmin, abmax), ylim = c(abmin, abmax), font = 2, font.lab = 2, pch = 16, cex.lab = 1.5, cex.main = 1.5,
-		xlab = "Postmenopausal", ylab = "Reproductive-aged", main = "Spatial anxiety")
+		xlab = "", ylab = "Reproductive-aged", main = "Spatial anxiety")
 	abline(0,1, col = "grey", lwd = 2)
 
 	abmin <- min(c(dat$tot[dat$male == 0 & dat$pst.repro == 1], dat$tot[dat$male == 0 & dat$pst.repro  == 0]), na.rm=T)
 	abmax <- max(c(dat$tot[dat$male == 0 & dat$pst.repro == 1], dat$tot[dat$male == 0 & dat$pst.repro  == 0]), na.rm=T)
 qqplot(dat$tot[dat$male == 0 & dat$pst.repro == 1], dat$tot[dat$male == 0 & dat$pst.repro == 0], xlim = c(abmin, abmax), ylim = c(abmin, abmax), font = 2, font.lab = 2, pch = 16, cex.lab = 1.5, cex.main = 1.5,
-		xlab = "Postmenopausal", ylab = "Reproductive-aged", main = "Annual mobility")
+		xlab = "", ylab = "", main = "Annual mobility")
 	abline(0,1, col = "grey", lwd = 2)
 
 	abmin <- min(c(dat$avc[dat$male == 0 & dat$pst.repro == 1], dat$avc[dat$male == 0 & dat$pst.repro  == 0]), na.rm=T)
@@ -130,7 +130,7 @@ qqplot(dat$avc[dat$male == 0 & dat$pst.repro == 1], dat$avc[dat$male == 0 & dat$
 	abmin <- min(c(dat$net[dat$male == 0 & dat$pst.repro == 1], dat$net[dat$male == 0 & dat$pst.repro  == 0]), na.rm=T)
 	abmax <- max(c(dat$net[dat$male == 0 & dat$pst.repro == 1], dat$net[dat$male == 0 & dat$pst.repro  == 0]), na.rm=T)
 qqplot(dat$net[dat$male == 0 & dat$pst.repro == 1], dat$net[dat$male == 0 & dat$pst.repro == 0], xlim = c(abmin, abmax), ylim = c(abmin, abmax), font = 2, font.lab = 2, pch = 16, cex.lab = 1.5, cex.main = 1.5,
-		xlab = "Postmenopausal", ylab = "Reproductive-aged", main = "Daily mobility")
+		xlab = "Postmenopausal", ylab = "", main = "Daily mobility")
 	abline(0,1, col = "grey", lwd = 2)
 dev.off()
 
