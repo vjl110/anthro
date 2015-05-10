@@ -1,0 +1,15 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: fertcare_5815.aux
+The style file: spbasic.bst
+Database file #1: bfeed_refs.bib
+Repeated entry---line 637 of file bfeed_refs.bib
+ : @article{wilson1985competitiveness
+ :                                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 837 of file bfeed_refs.bib
+ : @article{ecuyer2004have
+ :                        ,
+I'm skipping whatever remains of this entry
+`journal' is a missing field, not a string, for entry collins1984infanticide
+while executing---line 1650 of file spbasic.bst
+Warning--empty journal in collins1984infanticide
+(There were 3 error messages)
