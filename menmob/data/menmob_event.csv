@@ -1,0 +1,278 @@
+note,ID,place,x_num,x_many,when,why,with,stay,kids,mate,bin_mate,n_mate,funcmate,xmate_flg
+,3,okanguati,1,0,6,clinic (self),matcuzf,shelter,no,no,0,0,0,0
+,3,otjimundemba,1,0,6,clinic (for child),dad and kid,matcuzm,no,no,0,0,0,0
+,4,otjimundemba,1,0,1,clinic (self),husband,mgf,no,no,0,0,0,0
+,4,otjomuru,0,1,0.75,funeral,mom,funeral camp,1,no,0,0,0,0
+,5,otjomuru,0,1,0.75,funeral,mom and daughter,funeral camp,2,no,0,0,0,0
+,6,opuwo,0,1,0.75,funeral (collect body),3X male friend and daughter,hoem of deceased,no,no,0,0,0,0
+,6,otjomuru,0,1,0.75,funeral,3X male friend and daughter,funeral camp,no,no,0,0,0,0
+,6,oyjova,1,0,0.5,funeral,mohimbamua,,no,no,0,0,0,0
+,6,enjendi,1,0,,visit affines,mohimbamua,affines,no,no,0,0,0,0
+,6,papurarwe,1,0,,lost goat,mohimbamua,shelter,no,no,0,0,0,0
+,7,otjimundemba,1,0,2,clinic (self) and drinking,old sis,matcuzm,no,no,0,0,0,0
+,7,otjomuru,1,0,0.5,gov maize,female friend,matcuzm,no,no,0,0,0,0
+,8,okanguati,0,1,1,buy hair,forest (car),female friend,1,no,0,0,0,0
+,8,opuwo,1,0,4,clinic (matniece),son and 2 matnieces,shelter,grandson,no,0,0,0,0
+,8,otjimundemba,0,1,6,vaseline and ochre,alone,matnephew,no,no,0,0,0,0
+,9,otjomuru,1,0,0.75,funeral,puinya (in car),funeral camp,1 (adult),no,0,0,0,0
+,10,ehomba,0,1,2,pension and visit friends,alone,alone,no,no,0,0,0,0
+,10,otjimundemba,0,1,,visit and shop,alone,,no,no,0,0,0,0
+,10,ruacana,1,0,,young sis,alone,bro inlaw and young sis,no,no,0,0,0,0
+,10,opuwo,1,0,,clinic (wife),wife,shelter,no,no,0,0,0,0
+,10,onongurura,1,0,,en route (ongokwa),bro inlaw,neohew,no,no,0,0,0,0
+,10,epupa,1,0,,clinic (adult daughter),daughter,male friend,no,no,0,0,0,0
+,10,ongokwa,1,0,,family,alone,motjira (distant relative),no,no,0,0,0,0
+,13,otjimundemba,0,1,0.1,clinic (self),husband,nephew,no,no,0,0,0,0
+,13,okanguati,1,0,3,clinic (self and baby),baby,shelter,no,no,0,0,0,0
+,13,otjomuru,4,0,0.75,funeral,many,funeral camp,no,no,0,0,0,0
+,14,otjomuru,1,0,1,gov maize,alone,2nd home,no,no,0,0,0,0
+,16,ohayuua,1,0,10,visit matu,matcuzm,matu,no,1,1,1,0,0
+,16,opuwo,0,1,6,sell mihanga,alone,shelter,no,no,0,0,0,0
+,17,omuzenga,3,0,0.2,conservancy meeting,alone,patu,no,no,0,0,0,0
+,17,orotumba,2,0,0.2,lost cow,alone,matcuzm,no,no,0,0,0,0
+,17,okanguati,1,0,0.3,buy gf hair and soap,alone,teacher,no,no,0,0,0,0
+,17,opuwo,0,1,1,sell mihanga,alone,patcuzm,no,no,0,0,0,0
+,17,otjomuru,0,1,0,gov maize,gf and wife of jahuna,bro inlaw,no,no,0,0,0,0
+,20,okanguati,4,0,0.1,patcuzm and neph,alone,patcuzm and neph,no,no,0,0,0,0
+,20,otjitanga,0,1,0.1,visit sick niece,alone,family,no,no,0,0,0,0
+,20,okau,0,1,0.1,family and meeting,gf and wife of jahuna,matnephew,no,no,0,0,0,0
+,22,okanguati,1,0,1,pension and wife's cosmetics,alone,shelter,1 (adult),no,0,0,0,0
+,24,okapuindje,1,0,3,job,alone,shelter,no,no,0,0,0,0
+,27,ongondjonambadi,1,0,6,funeral (pat half-sis),pat family male,funeral camp,no,no,0,0,0,0
+,27,opuwo,1,0,6,hospital (adult son),adult son,shelter,no,no,0,0,0,0
+,27,okanguati,0,1,4,Hike return hospital (adult son),2 adult sons,shelter,no,no,0,0,0,0
+,27,otjomuru,0,1,0.1,2nd home,alone,shelter,no,no,0,0,0,0
+,29,ohayuua,3,0,,visit matunc,nephew,matunc,no,no,0,0,0,0
+,29,opuwo,0,1,,shopping,"nephew, matcuzf",shelter,no,no,0,0,0,0
+,30,ehomba,1,0,4,cattlepost,yougn bro,shelter,no,no,0,0,0,0
+,30,ouzorowe,0,1,1,visit girlfriend,alone,girlfriend's,no,1,1,1,1,0
+,30,otjitambi,0,0,1,ask old people for money (pension time),alone,matcuz and matunc,no,1,1,1,0,0
+,30,ondoto,0,1,0.5,visit girlfriend,alone,girlfriend's,no,3,1,3,1,0
+,30,otjimuhaka,0,1,0.5,buy food,male friend,shelter,no,no,0,0,0,0
+,52,omangete,2,0,,sell mihanga,alone,unrelated male,no,no,0,0,0,0
+,52,okanguati,1,0,,buying clothes and cosmetics,girlfriend,older male friend,no,no,0,0,0,0
+,52,otjomuru,0,1,1,girlfriend's home (becoming his 2nd),visit girlfriend and stay there,girlfriend's,1,1,1,1,1,0
+,54,opuwo,1,0,,visit sick child and sell mihanga,wife,shelter,no,no,0,0,0,0
+,56,omangete,1,0,6,en route (otjiu),matunc,great-matunc,no,no,0,0,0,0
+,56,otjiu,1,0,6,collect cow,alone,family cp,no,no,0,0,0,0
+,56,opuwo,0,1,1,collect photo ID,matunc,“didn't sleep”,no,no,0,0,0,0
+,56,omakange,1,0,,lost cow,alone,ovambos unrelated,no,no,0,0,0,0
+,56,mireko,3,0,2,lost cow,alone,patcuz,no,no,0,0,0,0
+,56,kapuindja,1,0,2,lost cow,alone,mat great great unc,no,no,0,0,0,0
+,56,otjihungu-tjongiami,3,0,2,lost cow,alone,unrelated male,no,no,0,0,0,0
+,58,erora,1,0,,lost cow,alone,unrelated male,no,no,0,0,0,0
+,58,ombaka,6,0,,visit mom,alone,mom,no,1,1,1,0,0
+,59,okanguati,1,0,,clinic (child),mom,teacher,no,no,0,0,0,0
+,59,okutowondo,0,1,,visit big sister,alone,bro in-law,1,no,0,0,0,0
+,59,okau,0,1,,visit grand mant,alone,grand mant,no,no,0,0,0,0
+,62,opuwo,1,0,,visit sick child,husband,shelter,1,no,0,0,0,0
+,64,opuwo,1,0,,buy soap,patcuzm,unrelated female,no,no,0,0,0,0
+,66,opuwo,1,0,,visiting town,boyfriend,shelter,no,no,0,0,0,0
+,68,okanguati,1,0,,beg money from family,matcuzm and matunknownmale,unrelated female,no,no,0,0,0,0
+,68,opuwo,1,0,,buy ochre and vaseline,same aged ladies (unknown relation),shelter,no,no,0,0,0,0
+,71,okau,0,1,0.1,visit relatives,alone,matcuzm,no,no,0,0,0,0
+,74,ohamaremba,0,1,0.2,deliver vaseline to mgf,,unrelated female,no,no,0,0,0,0
+,75,erora,1,0,,beg uncle for things,alone,matunc,no,no,0,0,0,0
+,75,ozongaku,1,0,,en route to erora,alone,unrelated mbundu people,no,no,0,0,0,0
+,75,ozohungu,1,0,,en route to erora,alone,matcuzf,no,no,0,0,0,0
+,75,ojona,1,0,,beg patcuzm for things,alone,patcuzm,no,no,0,0,0,0
+,75,piaviva,1,0,,beg matfam for sheep and blanket,alone,matfam,no,no,0,0,0,0
+,75,kwandu river,1,0,,en route to otjozondjo,alone,shelter,no,no,0,0,0,0
+,75,otjozondjo,1,0,,beg matunc for cow and donkey,alone,matunc,no,no,0,0,0,0
+,76,“in mountains”,1,0,,cattlepost,many men of unknown relation,shelter,no,no,0,0,0,0
+,76,otjoya,1,0,,funeral (matniece),matuncm,bro in-law,no,no,0,0,0,0
+,76,enjendi,1,0,,visit sister,matuncm,sister,no,no,0,0,0,0
+,76,papapurarwe,1,0,,colelct things from patcuzm,matuncm,patcuzm,no,no,0,0,0,0
+,76,omuzenga,0,1,,2nd compound,alone,own home,no,no,0,0,0,0
+,77,okau,1,0,,get drunk,alone,ex husband,1 (adult),no,0,0,0,0
+,78,otjomuru,1,0,0.2,en route to okanguati,longtime boyfriend,patnephew,2,no,0,0,0,0
+,78,opuwo,1,0,0.3,clinic,matcuzf,hospital,no,no,0,0,0,0
+,79,okau,1,0,0.3,funeral,alone,funeral camp,no,no,0,0,0,0
+,80,otjitambi,1,0,5,sell mihanga,matpatneph,friend male,no,no,0,0,0,0
+"Didn't actually sleep here, went back to otjitambi",80,epembe,1,0,5,sell mihanga,matpatneph,friend male,no,no,0,0,0,0
+,80,opuwo,1,0,7,clinic (old patrel f),5 people,shelter,no,no,0,0,0,0
+,80,okanguati,1,0,0.5,collecting debt,8 people,shelter,no,no,0,0,0,0
+,80,okau,2,0,0.1,visit girlfriend,alone,girlfriend's dad,no,1,1,1,1,0
+,81,omahama,1,0,,lost cow,alone,patcuzm,no,no,0,0,0,0
+,81,orupembe,1,0,,collect cow for dad,alone,patkinm,no,no,0,0,0,0
+,81,ombwindjaondu,1,0,,lost cow,alone,patkinm,no,no,0,0,0,0
+,81,orumukandi,1,0,,lost cow,alone,patkinm,no,no,0,0,0,0
+,81,kapara,0,1,,lost cow,alone,many places,no,1,1,1,0,0
+,81,ozuzeu,1,0,,lost cow,alone,patfam,no,no,0,0,0,0
+,81,otjijandjazemo,1,0,,lost cow,alone,patcuzm,no,no,0,0,0,0
+,81,epupa,1,0,,meeting about dam,many people,many people,no,no,0,0,0,0
+,81,oagungo,1,0,,seek cow from matunc,alone,matunc,no,no,0,0,0,0
+,81,otjitambi,1,0,,visiting girlfriend,alone,matcuzm,no,1,1,1,1,0
+,81,otjikoyo,0,1,,visiting for adulterous relations,alone,girlfriend's (when husband away),no,1,1,1,1,0
+,81,otjivize,0,1,,en route and looking for girls,alone,girlfriend,no,1,1,1,1,0
+,81,epembe,0,1,,visit multiple girlfriends,alone,girlfriends,2,more than 2,1,3,1,0
+,81,porongwe,1,0,,checking grass status,alone,matneph's cp,no,no,0,0,0,0
+,81,viere,1,0,,checking grass status,alone,matfam,no,no,0,0,0,0
+,81,omuhonga,0,1,,Courting 2 girls,alone,girls' places,no,2,1,2,1,0
+,82,oruzeu,0,1,1,eat mgm's maize,alone,mgm,no,1,1,1,0,0
+,82,mbandandu,0,1,0.25,visit girlfriend,alone,matunc,no,1,1,1,1,0
+,82,omiore,0,1,1,lost cow,alone,matfamm agemate,no,no,0,0,0,0
+,83,opuwo,1,0,0.25,clinic (matcuzf),w/ matcuzf and girlfriend,shelter,no,no,0,0,0,0
+,84,otjomuru,1,0,0.25,try adult school,alone,maunt,no,no,0,0,0,0
+in car,85,okanguati,3,0,,collect pension,driver (forest?),matfam,no,no,0,0,0,0
+in car,85,otengwa,1,0,,visit family,ovmabo guy,family,no,no,0,0,0,0
+,85,omhamaremba,1,0,,pension,alone,affinal niblings,no,no,0,0,0,0
+,86,omuzenga,1,0,4,Working in matcuzm's garden,alone,matcuzf,no,no,0,0,0,0
+,86,orowe,1,0,3,en roue from omuzenga,alone,patfam,no,no,0,0,0,0
+,86,okau,0,1,0.1,came for “omanjando” ceremony,children,shelter,no,no,0,0,0,0
+,87,opuwo,0,1,5,hospital (sister preme),mom maunt and boyfriend,shelter,no,no,0,0,0,0
+,87,ohamaremba,0,1,5,en route to opuwo,mom maunt and boyfriend,shelter,no,no,0,0,0,0
+,88,omuzenga,0,1,0.25,take sick sister to dad b/c mom gone,young sis,dad,no,no,0,0,0,0
+,88,okau,0,1,0.1,omanjando ceremony,mom,patunc,no,no,0,0,0,0
+,90,opuwo,2,0,3,visit mom,alone,mom,no,no,0,0,0,0
+,90,alpha,2,0,3,visit mgm,alone,mgm,no,no,0,0,0,0
+,90,okanguati,2,0,,visiting,alone,matfam,no,no,0,0,0,0
+,90,orotumba,1,0,,visiting,alone,male friends,no,no,0,0,0,0
+,90,otjimuhaka,1,0,,matunc,matcuzm,matunc,no,no,0,0,0,0
+,90,ehomba,1,0,,visit patrel male,alone,patrel male,no,no,0,0,0,0
+,90,omuzenga,0,1,1,visit older sis,alone,affine (sis husband),no,no,0,0,0,0
+,90,okau,0,1,,visit friend male,alone,friend's dad,no,no,0,0,0,0
+,91,otjizi,1,0,2,en route (otjikondovirondo),dad and young sis,shelter,no,no,0,0,0,0
+,91,onongurura,1,0,2,en route (otjikondovirondo),dad and young sis,patcuzm,no,no,0,0,0,0
+,91,ohayuua,1,0,2,en route (otjikondovirondo),young sis,patunc,no,no,0,0,0,0
+,91,okanguati,1,0,2,en route (otjikondovirondo),young sis,zemba man,no,no,0,0,0,0
+,91,otjikondovirondo,1,0,2,visit maunt,young sis,maunt,no,no,0,0,0,0
+,92,otjizi,1,0,2,en route (otjikondovirondo),dad and big sis,shelter,no,no,0,0,0,0
+,92,onongurura,1,0,2,en route (otjikondovirondo),dad and big sis,patcuzm,no,no,0,0,0,0
+,92,ohayuua,1,0,2,en route (otjikondovirondo),big sis,patunc,no,no,0,0,0,0
+,92,okanguati,1,0,2,en route (otjikondovirondo),big sis,zemba man,no,no,0,0,0,0
+,92,otjikondovirondo,1,0,2,visit maunt,big sis,maunt,no,no,0,0,0,0
+,93,opuwo,1,0,1,collect birth certificate,dad,patfam,no,no,0,0,0,0
+,94,orotumba,2,0,1,clinic (herself),husband,ovambo,no,no,0,0,0,0
+,96,opuwo,1,0,1,visit the town,patcuzm,shelter,no,no,0,0,0,0
+,96,ohamaremba,1,0,1,en route (opuwo),patcuzm,ngamwe man,no,no,0,0,0,0
+,97,khorixas,1,0,8,visiting friend,damara friend,damara friend,no,no,0,0,0,0
+,97,ongera,1,0,11,working,alone,place of work,no,no,0,0,0,0
+,97,omuhandha,1,0,1,play soccer,teammates,shelter,no,no,0,0,0,0
+,97,opuwo,5,0,,sell mihanga,friends,shelter,no,1,1,1,0,0
+,98,opuwo,1,0,0.25,collect payment (for babysitting teacher's kid),w/ employer,w/ employer,no,no,0,0,0,0
+,98,okau,1,0,2,funeral,funeral party,funeral camp,no,no,0,0,0,0
+I drove on this trip,99,okanguati,1,0,1,clinic (child),husband,friend,no,no,0,0,0,0
+,100,okanguati,1,0,,collect sis' paycheck,Many (3 of them family),friend,no,no,0,0,0,0
+,100,ohamaremba,2,0,,visiting,matcuzf,mataunt,no,no,0,0,0,0
+,101,opuwo,1,0,,collect salary (mining),w/ boss,sister,no,no,0,0,0,0
+,102,okanguati,0,1,,visit friends,alone,matcuzm,no,1,1,1,1,1
+,102,okau,0,1,,visit family,alone,dad,no,no,0,0,0,0
+,102,ondjima,0,1,,visit matfam,brother,matfam,no,no,0,0,0,0
+,102,enyendi,0,1,,visit matfam,friend male,matfam,no,no,0,0,0,0
+,102,otjoya,1,0,,visit matfam,alone,matfam,no,no,0,0,0,0
+,102,okana,2,0,,foraging,friend male,shelter,no,no,0,0,0,0
+,102,ongaro,1,0,,foraging,friend male,shelter,no,no,0,0,0,0
+,102,ohamukoti,1,0,,foraging,dad,shelter,no,no,0,0,0,0
+,102,okomatuka,1,0,,foraging,patcuzm,shelter,no,no,0,0,0,0
+,102,ohamaremba,3,0,,visit friends,friends,patunc,no,no,0,0,0,0
+,102,okapembi,1,0,,foraging,alone,shelter,no,no,0,0,0,0
+,102,otjikoyo,1,0,,collecting his things,young bro,shelter,no,1,1,1,0,0
+,102,omuzenga,2,0,,visit wife,alone,wife's fam,no,1,1,1,1,0
+,102,otjipango,0,1,,visit friend,alone,friend male,no,no,0,0,0,0
+,102,okauva,0,1,,foraging,dad,shelter,no,no,0,0,0,0
+,102,otjimbwende,0,1,,cp,alone,cp,no,no,0,0,0,0
+,102,otjihoko,0,1,,cp,alone,cp,no,no,0,0,0,0
+,102,otjitongorora,0,1,,foraging,dad,shelter,no,no,0,0,0,0
+,103,okau,1,0,0.5,omanjando ceremony,large group of women,strike camp,no,no,0,0,0,0
+,104,okau,1,0,0.5,help daughter give birth,matcuzf,matunc,1,no,0,0,0,0
+,104,opuwo,1,0,3,daughter had preme,half patsis,hospital,no,no,0,0,0,0
+"(kids and lover no, because brought with)",104,orundje,0,1,,husband's 2nd compound,husband,husband,no,no,0,0,0,0
+,104,ohayuua,1,0,,en route (opuwo),half patsis,half patsis,no,no,0,0,0,0
+,104,okanguati,1,0,,en route (opuwo),half patsis,shelter,no,no,0,0,0,0
+,104,otjomuru,1,0,,second home,alone,kiyatjo.. (unknown),no,no,0,0,0,0
+(traveled w/ boyfriend),105,kamanjab,1,0,,boyfriend works there,boyfriend,shelter,no,no,0,0,0,0
+,105,orukopa,1,0,,boyfriend works there,boyfriend,farm,no,no,0,0,0,0
+,105,opuwo,1,0,,on route (from farms),boyfriend,shelter,no,no,0,0,0,0
+,105,omuzenga,1,0,,visit patunc,alone,patunc,no,no,0,0,0,0
+,106,okanguati,1,0,,clinic (self preg),patcuzf 2x,female friend,no,no,0,0,0,0
+,106,opuwo,1,0,,give birth in hospital,mom and f fam friend,shelter,no,no,0,0,0,0
+,107,okau,1,0,,funeral,funeral party,funeral party,no,no,0,0,0,0
+,109,okanguati,1,0,,buy hair,alone,shelter,no,no,0,0,0,0
+,110,oramukende,1,0,0.75,funeral,"mom, mgm, small punc",dad,no,no,0,0,0,0
+,110,erora,1,0,,eat maize of big punc,young bro,Big punc,no,no,0,0,0,0
+,110,ohayuua,4,0,,looking for girls,once w/ patcuzm one w/ other patcuzm recently alone,,no,2,1,2,1,0
+,110,otjimuru,1,0,,moved,patcuzm,matfam,no,“stealing”,1,1,1,0
+,111,ohamaremba,1,0,,visit family and friends,alone,friend (old neighbor),no,no,0,0,0,0
+,112,opuwo,1,0,,running competition (which he won),teacher,teacher,no,no,0,0,0,0
+,112,omuhandja,1,0,,play soccer,teacher and team,teacher,no,no,0,0,0,0
+,113,opuwo,1,0,,went to court b/c he beat his wife,male friends,shelter,no,no,0,0,0,0
+,113,okanguati,1,0,,beg bro for money,5 women 1 in family,friend f,no,no,0,0,0,0
+,113,otjomuru,0,1,0.25,visit girlfriends,alone,ladies,2,5,1,5,1,0
+,114,opuwo,1,0,0.75,funeral of bro,many family,funeral camp,no,no,0,0,0,0
+,114,okau,1,0,0.75,funeral of bro,many family,funeral camp,no,no,0,0,0,0
+,115,okanguati,1,0,5,has garden,affinal daughter,garden compound,no,no,0,0,0,0
+,115,otjitanga,1,0,,cp,nuclear family,shelter,no,no,0,0,0,0
+,116,okanguati,1,0,5,has garden,affinal mom,garden compound,no,no,0,0,0,0
+,116,omangete,1,0,,funeral of mgf,kids and affinal mom,mom and funeral party,no,no,0,0,0,0
+,116,omungavera,2,0,,visit dad,alone,dad,3,no,0,0,0,0
+,116,ovitwambo,1,0,,"dau of cowife lives there, consoling after loss of child",affinal mom and daughter,cowive's dau,no,no,0,0,0,0
+,117,omangete,0,1,,visit mom,"sometimes with friend, sometimes alone",mom,no,no,0,0,0,0
+,118,omangete,1,0,,funeral of pataunt,alone,patcuzm,no,no,0,0,0,0
+,118,ovitwambo,1,0,,funeral of big sis,mom and mgm,matfam,no,no,0,0,0,0
+,119,orotjitombo,1,0,,check on goat loaned to matneph,alone,bro,no,1,1,1,0,0
+,119,otjikoyo,3,0,,asking for his gun,alone,2 compounds,no,1,1,1,0,0
+,119,omatapati,2,0,,visit affines,alone,affines,no,no,0,0,0,0
+,119,epembe,1,0,,funeral of mgf,wife,funeral party,1,1,1,1,0,0
+,119,ovitwambo,4,0,,funeral of matpatman,alone,funeral party,1,1,1,1,0,0
+,119,okauaorwe,0,1,,visit girlfriend,alone,girlfriend,no,1,1,1,1,0
+,119,okanguati,0,1,,collecting debt,alone,mant,1,no,0,0,0,0
+,119,opuwo,3,0,,collect debt,alone,girlfriends,no,1,1,1,0,0
+,119,otjivize,0,1,,Visiting #1 girlfriend,alone,girlfriend,2,2,1,2,1,0
+,120,ovitwambo,0,1,,visit dad,alone,dad,no,1,1,1,0,0
+(not sure if this refers to wife...),120,omangete,0,1,,affines,wife,affines,1,1,1,1,0,0
+,120,ohamaremba,1,0,,en route (opuwo),friend (male),matcuzm,no,1,1,1,0,0
+,120,opuwo,0,1,,sell goats,friend (male),shelter,no,multiple,1,3,0,0
+,120,outapi,2,0,,car shoppinig,friend (male),friend (male),no,no,0,0,0,0
+,120,otjandi,1,0,,car shoppinig,friend (male),shelter,no,no,0,0,0,0
+,120,oshikati,1,0,,car shoppinig,friend (male),shelter,no,no,0,0,0,0
+,120,otjikoyo,2,0,,looking for cow,alone,patcum,no,1,1,1,0,0
+,120,otjitambi,1,0,,looking for cow,alone,matfam,no,no,0,0,0,0
+,120,okau,1,0,,looking for cow,alone,patbro,no,no,0,0,0,0
+,120,okanguati,0,1,,"hospital, but also visiting, looking girls, meetings, buyuing things",matunc youngbro,hospital,2,2,1,1,1,0
+,120,otjiyandjazemo,2,0,,"looking for cow, previously b/c meeting",alone,friend male,no,no,0,0,0,0
+,121,otjomuru,1,0,,looking for cow,alone,matunc,no,no,0,0,0,0
+,122,otjihandjavero,1,0,,visit yng mataunt,alone,yng mataunt,no,no,0,0,0,0
+,122,ohamukoti,2,0,,visiting his cows,big bro,shelter,no,no,0,0,0,0
+,122,ombuku,2,0,,visit bro,alone,bro,no,no,0,0,0,0
+,122,okanguati,0,1,,buy maize,alone,sister compound,no,1,1,1,0,0
+,122,omangete,3,0,,looking for cow,alone,shelter,no,no,0,0,0,0
+,122,opuwo,0,1,,shopping,matneph,shelter,1,1,1,1,0,0
+,123,ombku,2,0,,beg matunc for cows,alone,matunc,no,1,1,1,0,0
+,123,otjiwe,1,0,,beg matunc for goat,alone,matunc,no,no,0,0,0,0
+,123,ejao,1,0,,ask matunc for cows,alone,matunc,no,no,0,0,0,0
+,123,opuwo,0,1,,collect id,friend and matunc,grand patunc,no,no,0,0,0,0
+,123,ehama,0,1,,brought goats to matcuzm,alone,matcuzm,no,no,0,0,0,0
+,123,okanguati,0,1,,transport goat,alone,shelter,1,1,1,1,0,0
+,124,ehama,3,0,,beg matunc for goat,alone,matunc,no,no,0,0,0,0
+,124,otjikoyo,1,0,,as matfam for goat,alone,old mataunt,no,no,0,0,0,0
+,124,omongareva,1,0,,lost cow,alone,matcuzm,no,no,0,0,0,0
+,124,otjiyandjazemo,1,0,,looking for cow,zemba friend,patcuzm,no,no,0,0,0,0
+,124,opuwo,0,1,,visiting for fun,friend,patcuzm,1,1,1,1,1,1
+,124,epupa,1,0,,visit big bro,alone,big bro,no,no,0,0,0,0
+,124,omangete,1,0,,looking for girlfriends,alone,friend,no,no,0,0,1,0
+,124,ombaka,1,0,,collecting siblings for transport,alone,mom's,no,no,0,0,0,0
+,124,kohonga,1,0,,visit girlfriend,alone,patcuzm,1,1,1,1,1,0
+,124,otjivize,1,0,,looking for cows and girls,alone,matcuzm,no,1,1,1,1,0
+,124,okanguati,0,1,,,,,,,,,,
+,125,opuwo,2,0,,look for stolen cow,matcuzm,unknown,no,no,0,0,0,0
+,125,epupa,2,0,,political ceremony,friend male,ceremnoy compound,no,no,0,0,0,0
+,125,ondarere,0,1,,take goats to cp,alone,sister,no,1,1,1,0,0
+,126,orotjirindi,0,1,,garden,alone,grand mant,no,no,0,0,0,0
+,126,epupa,1,0,,visit bro,alone,bro,no,no,0,0,0,0
+,126,opuwo,1,0,,hospital,alone,patcuzf,no,no,0,0,0,0
+,126,ondarere,0,1,,cp goats,Young matcuzs,matunc,no,1,1,1,0,0
+,128,okanguati,1,0,,en route epupa,forest (car),friend f,no,no,0,0,0,0
+,128,ohayuua,1,0,,ask dad for money b/c sick,forest (car),shelter,no,no,0,0,0,0
+,128,ohamaremba,1,0,,en route (epupa),alone,ovambo,no,no,0,0,0,0
+,128,opuwo,1,0,,hospital,forest (car),hospital,no,no,0,0,0,0
+,129,opuwo,1,0,,hospital (daughter's 1st birth),daughter,shelter,no,no,0,0,0,0
+,129,otjikondovirondo,1,0,,visit mom,alone,mom,no,no,0,0,0,0
+,127,none,,,,,,,,,,,,
+,95,none,,,,,,,,,,,,
+,89,none,,,,,,,,,,,,
+,61,none,,,,,,,,,,,,
+,53,none,,,,,,,,,,,,
+,2,none,,,,,,,,,,,,
+,127,none,,,,,,,,,,,,
+,108,none,,,,,,,,,,,,

@@ -226,6 +226,7 @@ points(dat$Acc[dat$male == 1 & dat$Acc >= .5], dat$tot[dat$male == 1 & dat$Acc >
 	lines(prd$Acc, prd$m, col = "black", lwd = 2)
 points(dat$Acc[dat$male == 0 & dat$Acc >= .5], dat$tot[dat$male == 0 & dat$Acc >= .5], pch = 17, col = "dark grey")
 	lines(prd$Acc, prd$f, col = "dark grey", lwd = 2)
+	legend("topleft", c("Men", "Women"), pch = c(16, 17), col = c("black", "dark grey"), bty = "n", cex = 1.5)
 dev.off()
 
 

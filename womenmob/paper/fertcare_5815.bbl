@@ -1,4 +1,4 @@
-\begin{thebibliography}{71}
+\begin{thebibliography}{69}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{{#1}}
 \providecommand{\urlprefix}{URL }
@@ -12,6 +12,10 @@
 Betzig L (2012) Means, variances, and ranges in reproductive success:
   comparative evidence. Evolution and Human Behavior 33(4):309--317
 
+\bibitem[{Brown et~al(2009)Brown, Laland, and Mulder}]{brown2009bateman}
+Brown GR, Laland KN, Mulder MB (2009) Bateman's principles and human sex roles.
+  Trends in Ecology \& Evolution 24(6):297--304
+
 \bibitem[{Bryant(1982)}]{bryant1982personality}
 Bryant K (1982) Personality correlates of sense of direction and geographic
   orientation. Journal of Personality and Social Psychology 43(6):1318
@@ -19,10 +23,6 @@ Bryant K (1982) Personality correlates of sense of direction and geographic
 \bibitem[{Burke et~al(2012)Burke, Kandler, and Good}]{burke2012women}
 Burke A, Kandler A, Good D (2012) Women who know their place. Human Nature
   23(2):133--148
-
-\bibitem[{Campbell(1999)}]{campbell1999staying}
-Campbell A (1999) Staying alive: Evolution, culture, and women's intrasexual
-  aggression. Behavioral and Brain Sciences 22(02):203--214
 
 \bibitem[{Clutton-Brock(2007)}]{clutton2007sexual}
 Clutton-Brock T (2007) Sexual selection in males and females. Science
@@ -36,6 +36,10 @@ Clutton-Brock T, Vincent A (1991) Sexual selection and the potential
   Goodall}]{collins1984infanticide}
 Collins D, Busse C, Goodall J (1984) Infanticide in two populations of savanna
   baboons.
+
+\bibitem[{Coluccia and Louse(2004)}]{coluccia2004gender}
+Coluccia E, Louse G (2004) Gender differences in spatial orientation: A review.
+  Journal of environmental psychology 24(3):329--340
 
 \bibitem[{Devlin and Bernstein(1995)}]{devlin1995interactive}
 Devlin AS, Bernstein J (1995) Interactive wayfinding: Use of cues by men and
@@ -72,19 +76,9 @@ Ecuyer-Dab I, Robert M (2004{\natexlab{b}}) Spatial ability and home-range
   size: examining the relationship in western men and women (homo sapiens).
   Journal of Comparative Psychology 118(2):217
 
-\bibitem[{Ellison(2003)}]{ellison2003energetics}
-Ellison P (2003) Energetics and reproductive effort. American Journal of Human
-  Biology 15(3):342--351
-
 \bibitem[{Frye(1995)}]{frye1995estrus}
 Frye C (1995) Estrus-associated decrements in a water maze task are limited to
   acquisition. Physiology \& behavior 57(1):5--14
-
-\bibitem[{Fugger et~al(1998)Fugger, Cunningham, Rissman, and
-  Foster}]{fugger1998sex}
-Fugger H, Cunningham S, Rissman E, Foster T (1998) Sex differences in the
-  activational effect of er$\alpha$ on spatial learning. Hormones and behavior
-  34(2):163--170
 
 \bibitem[{Galea and Kimura(1993)}]{galea1993sex}
 Galea L, Kimura D (1993) Sex differences in route-learning. Personality and
@@ -133,10 +127,6 @@ Hampson E, Kimura D (1988) Reciprocal effects of hormonal fluctuations on human
 Hausmann M, Slabbekoorn D, Van~Goozen SH, Cohen-Kettenis PT,
   G{\"u}nt{\"u}rk{\"u}n O (2000) Sex hormones affect spatial abilities during
   the menstrual cycle. Behavioral neuroscience 114(6):1245
-
-\bibitem[{Hawkes(2003)}]{hawkes2003grandmothers}
-Hawkes K (2003) Grandmothers and the evolution of human longevity. American
-  Journal of Human Biology 15(3):380--400
 
 \bibitem[{Henrie et~al(1997)Henrie, Aron, Nelson, and Poole}]{henrie1997gender}
 Henrie R, Aron R, Nelson B, Poole D (1997) Gender-related knowledge variations
