@@ -1,0 +1,287 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Classicthesis-Styled CV
+% LaTeX Template
+% Version 1.0 (22/2/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Alessandro Plasmati
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{scrartcl}
+
+\reversemarginpar % Move the margin to the left of the page 
+
+\newcommand{\MarginText}[1]{\marginpar{\raggedleft\itshape\small#1}} % New command defining the margin text style
+
+\usepackage[nochapters]{classicthesis} % Use the classicthesis style for the style of the document
+\usepackage[LabelsAligned]{currvita} % Use the currvita style for the layout of the document
+
+\renewcommand{\cvheadingfont}{\LARGE\color{Maroon}} % Font color of your name at the top
+
+\usepackage{hyperref} % Required for adding links	and customizing them
+\hypersetup{colorlinks, breaklinks, urlcolor=Maroon, linkcolor=Maroon} % Set link colors
+
+\newlength{\datebox}\settowidth{\datebox}{Spring 2011} % Set the width of the date box in each block
+
+\newcommand{\NewEntry}[3]{\noindent\hangindent=2em\hangafter=0 \parbox{\datebox}{\small \textit{#1}}\hspace{1.5em} #2 #3 % Define a command for each new block - change spacing and font sizes here: #1 is the left margin, #2 is the italic date field and #3 is the position/employer/location field
+\vspace{0.5em}} % Add some white space after each new entry
+
+\newcommand{\Description}[1]{\hangindent=2em\hangafter=0\noindent\raggedright\footnotesize{#1}\par\normalsize\vspace{1em}} % Define a command for descriptions of each entry - change spacing and font sizes here
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\thispagestyle{empty} % Stop the page count at the bottom of the first page
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{cv}{\spacedallcaps{Layne J. Vashro}}\vspace{1.5em} % Your name
+
+\noindent\spacedlowsmallcaps{Personal Information}\vspace{0.5em} % Personal information heading
+
+\NewEntry{}{\textit{Born in USA,}}{8 December 1983} % Birthplace and date
+
+\NewEntry{email}{\href{mailto:layne.vashro@anthro.utah.edu}{layne.vashro@anthro.utah.edu}} % Email address
+
+\NewEntry{website}{\href{http://www.laynevashro.com}{http://www.laynevashro.com}} % Personal website
+
+\NewEntry{phone}{(M) +1 (801) 663 6199} % Phone number(s)
+
+\vspace{1em} % Extra white space between the personal information section and goal
+
+%\noindent\spacedlowsmallcaps{Goal}\vspace{1em} % Goal heading, could be used for a quotation or short profile instead
+
+%\Description{Gain fundamental experience in my area of interest and expertise.}\vspace{2em} % Goal text
+
+%----------------------------------------------------------------------------------------
+%	PROFESSIONAL SUMMARY
+%----------------------------------------------------------------------------------------
+
+\spacedlowsmallcaps{Professional Summary}\vspace{1em}
+
+I am a Ph.D. in a quantitative subfield of anthropology.  In my spare time, I use a personal database of NBA, NCAA, and international basketball data to produce publicly available models and statistical tools.  I am interested in continuing my basketball research professionally as a consultant or a fulltime analyst.  
+
+\vspace{1em} % Extra space between major sections
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\spacedlowsmallcaps{Education}\vspace{1em}
+
+\NewEntry{Ph.D.}{The University of Utah, Anthropology}
+
+%------------------------------------------------
+
+\NewEntry{M.S.}{The University of Utah, Anthropology}
+
+%------------------------------------------------
+
+\NewEntry{B.S.}{Pennsylvania State University, Psychology}
+
+%------------------------------------------------
+
+\NewEntry{B.A.}{Pennsylvania State University, Anthropology}
+
+%------------------------------------------------
+
+\vspace{1em} % Extra space between major sections
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS
+%---------------------------------------------------------------------
+\noindent\spacedlowsmallcaps{Published Work}\vspace{1em}
+
+\NewEntry{}{Draft Projection Models}
+
+\Description{\MarginText{} \href{laynevashro.shinyapps.io/preds/}{laynevashro.shinyapps.io/preds/} \\ 
+Collection of draft projection models with predictions for current class and out-of-sample retrodictions to 1990}
+
+%------------------------------------------------
+
+\NewEntry{}{5-Factor RAPM Ratings}
+
+\Description{\MarginText{} (Currently private)\\ 
+Regularized adjusted on/off measure of NBA players' impact on the traditional four-factors on offense and defense, and a 5th factor ``pace''}
+
+%------------------------------------------------
+
+\NewEntry{}{NCAA and NBA Player Comparison Tools}
+
+\Description{\MarginText{} \href{laynevashro.shinyapps.io/comps/}{laynevashro.shinyapps.io/comps/}; \href{laynevashro.shinyapps.io/comps_nba/}{laynevashro.shinyapps.io/comps\textunderscore nba/} \\ 
+Interactive tools that use a simple algorithm to identify statistically closest previous player-seasons to given players' season based on user specified weights}
+
+%------------------------------------------------
+
+\NewEntry{}{NCAA and NBA Player Progression Tools}
+
+\Description{\MarginText{} \href{laynevashro.shinyapps.io/progs/}{laynevashro.shinyapps.io/progs/}; \href{laynevashro.shinyapps.io/progs_nba/}{laynevashro.shinyapps.io/progs\textunderscore nba/} \\ 
+Interactive tools that track player improvement in each statistic within and between seasons}
+
+
+%------------------------------------------------
+
+\NewEntry{}{Coach Adjustment Tool}
+
+\Description{\MarginText{} \href{laynevashro.shinyapps.io/coach_cors/}{laynevashro.shinyapps.io/coach\textunderscore cors/} \\ 
+Interactive tool that looks at the NCAA-to-NBA correlation of each boxscore statistic for players under each NCAA coach. Helps identify system effects in order to better project future production}
+
+%------------------------------------------------
+
+\NewEntry{}{Coaching Networks}
+
+\Description{\MarginText{} \href{laynevashro.shinyapps.io/coach_net/}{laynevashro.shinyapps.io/coach\textunderscore net/} \\ 
+Generates coaching networks around a user-selected NCAA coach}
+
+%------------------------------------------------
+
+
+\NewEntry{}{Basketball Writing}
+
+\Description{\MarginText{} I have written a number of articles for different basketball websites.  \href{http://www.canishoopus.com/2014/2/26/5435374/potential-nba-draft-prospects}{Here} is a link to one representative article. More are available on my website or upon request.}
+
+\vspace{1em} % Extra space between major sections
+
+%------------------------------------------------
+
+
+\NewEntry{}{Academic Publications}
+
+\Description{\MarginText{} Full list of my peer-reviewed publications and conference presentations is available upon request.}
+
+\vspace{1em} % Extra space between major sections
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\noindent\spacedlowsmallcaps{Work Experience}\vspace{1em}
+
+\NewEntry{2014--Present}{Postdoctoral Researcher, \textsc{SCAN Project}}
+
+\Description{\MarginText{} Research design, as well as data collection, management, and analysis for the Spatial Cognition and Navigation multidisciplinary research project  \\ Reference: Elizabeth \textsc{Cashdan}\ \ $\cdotp$\ \ \href{mailto:ecashdan@gmail.com}{ecashdan@gmail.com}}
+
+%------------------------------------------------
+
+\NewEntry{2008--2014}{Research Assistant, \textsc{University of Utah, Department of Anthropology}}
+
+\Description{\MarginText{} Designed and executed dissertation fieldwork in northwestern Namibia \\ Reference: Steven \textsc{Josephson}\ \ $\cdotp$\ \ \href{mailto:stevencjosephson@gmail.com}{stevencjosephson@gmail.com}}
+
+%------------------------------------------------
+
+\NewEntry{2010--2013}{Lecturer, \textsc{University of Utah, Department of Anthropology}}
+
+\Description{\MarginText{} Designed and lectured both traditional and online courses at the University of Utah}
+
+%------------------------------------------------
+
+\NewEntry{2010--2012}{Project Data Manager, \textsc{Evans Evaluation}}
+
+\Description{\MarginText{} Designed and managed project databases for a research consulting team \\ Reference: Matt \textsc{Evans}\ \ $\cdotp$\ \ \href{mailto:matt@evansevaluation.com }{matt@evansevaluation.com }}
+
+%------------------------------------------------
+
+\NewEntry{2009--2010}{Grant Writer, \textsc{Institute for Research and Evaluation}}
+
+\Description{\MarginText{} Designed and outlined research grants as a part of a consulting team.  Focused on methods and statistical analysis protocol \\ Reference: Joseph \textsc{White}\ \ $\cdotp$\ \ \href{mailto:joseph.ire@gmail.com}{joseph.ire@gmail.com}}
+
+%------------------------------------------------
+
+
+\NewEntry{2006--2007}{Research Assistant, \textsc{Pennsylvania State University, Neuroendocrinology Laboratory}}
+
+\Description{\MarginText{} Biological sample processing and data entry \\ Reference: Sonia \textsc{Cavigelli}\ \ $\cdotp$\ \ \href{mailto:s-cavigelli@psu.edu}{s-cavigelli@psu.edu}}
+
+%------------------------------------------------
+
+\NewEntry{2005--2006}{Research Assistant, \textsc{Pennsylvania State University, Laboratory for Cognition and Action.}}
+
+\Description{\MarginText{} Administered experiments to participants and engaged in weekly laboratory discussions about cognitive motor science \\ Reference: David \textsc{Rosenbaum}\ \ $\cdotp$\ \ \href{mailto:dar12@psu.edu}{dar12@psu.edu}}
+
+-------------------
+
+\vspace{1em} % Extra space between major sections
+
+%----------------------------------------------------------------------------------------
+%	OTHER INFORMATION
+%----------------------------------------------------------------------------------------
+
+\spacedlowsmallcaps{Other Information}\vspace{1em}
+
+\Description{\MarginText{Statistical Skills} \textsc{Generalized Linear Models} \ $\cdotp$\ \ \textsc{Ridge Regression} \ $\cdotp$\ \ \textsc{Mixed Effects Models}\ $\cdotp$\ \ \textsc{Nonlinear Models} \ $\cdotp$\ \ \textsc{Machine Learning} \ $\cdotp$\ \ \textsc{Logistic Regression} \ $\cdotp$\ \ \textsc{Multinomial Regression} \ $\cdotp$\ \ \textsc{Survival Analysis} \ $\cdotp$\ \ \textsc{Non-Parametric} \ $\cdotp$\ \ \textsc{k-means Clustering} \ $\cdotp$\ \ \textsc{Path Analysis} \ $\cdotp$\ \ \textsc{Data Visualization}}
+
+%------------------------------------------------
+
+\Description{\MarginText{Computer Skills} \textsc{R} \ $\cdotp$\ \ \textsc{SPSS} \ $\cdotp$\ \ \textsc{Python} \ $\cdotp$\ \ \textsc{html} \ $\cdotp$\ \ \textsc{Ruby}}
+
+\vspace{-0.5em} % Negative vertical space to counteract the vertical space between every \Description command
+
+\Description{\textsc{MySQL} $\cdotp$\ \ \textsc{Gnumeric} $\cdotp$\ \ \textsc{OpenOffice Calc} \ $\cdotp$\ \ \textsc{Microsoft Excel}}
+
+\vspace{-0.5em} % Negative vertical space to counteract the vertical space between every \Description command
+
+\Description{\LaTeX \ $\cdotp$\ \ \textsc{OpenOffice Writer} \ $\cdotp$\ \ \textsc{Microsoft Word}}
+
+\vspace{-0.5em} % Negative vertical space to counteract the vertical space between every \Description command
+
+\Description{\textsc{Beamer} \ $\cdotp$\ \ \textsc{Shiny} \ $\cdotp$\ \ \textsc{Microsoft PowerPoint}\ $\cdotp$\ \ \textsc{GIMP} \ $\cdotp$\ \ \textsc{Inkscape}}
+
+%------------------------------------------------
+\vspace{1em}
+
+\Description{\MarginText{Awards}2013 \ $\cdotp$\ \ Human Behavior and Evolution Society 2013 New Investigator Finalist}
+
+\vspace{-0.5em} % Negative vertical space to counteract the vertical space between every \Description command
+
+\Description{2012--2013 \ $\cdotp$\ \ Wenner-Gren Foundation Dissertation Fieldwork Grant}
+
+\vspace{-0.5em} % Negative vertical space to counteract the vertical space between every \Description command
+
+\Description{2012 \ $\cdotp$\ \ Society for Anthropological Sciences 2012 Student Paper Prize}
+
+\vspace{-0.5em} % Negative vertical space to counteract the vertical space between every \Description command
+
+\Description{2010--2012 \ $\cdotp$\ \ DDI Grant: National Science Foundation 1026373}
+
+%------------------------------------------------
+
+\vspace{1em}
+
+\newlength{\langbox} % Create a new length for the length of languages to keep them equally spaced
+\settowidth{\langbox}{English} % Length equals the length of "English" - if you have a longer language in your list put it here
+
+\Description{\MarginText{Languages}\parbox{\langbox}{\textsc{English}}\ \ $\cdotp$\ \ \ Mothertongue}
+
+\vspace{-0.5em} % Negative vertical space to counteract the vertical space between every \Description command
+
+\Description{\parbox{\langbox}{\textsc{Herero}}\ \ $\cdotp$\ \ \ Intermediate}
+
+\vspace{-0.5em} % Negative vertical space to counteract the vertical space between every \Description command
+
+\Description{\parbox{\langbox}{\textsc{Swahili}}\ \ $\cdotp$\ \ \ Basic}
+
+\vspace{1em} % Negative vertical space to counteract the vertical space between every \Description command
+
+%------------------------------------------------
+
+%\Description{\MarginText{Interests}Piano\ \ $\cdotp$\ \ Cooking\ \ $\cdotp$\ \ Running\ \ $\cdotp$\ \ Chess\ \ $\cdotp$\ \ Dancing}
+
+%----------------------------------------------------------------------------------------
+
+\end{cv}
+
+\end{document}
