@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.16)  18 JUN 2015 10:47
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.16)  19 JUN 2015 06:18
 entering extended mode
 **Field_Protocol_2015.tex
 (C:\Users\Layne\Documents\GitHub\anthro\Field2015\Field_Protocol_2015.tex
@@ -155,8 +155,9 @@ Overfull \hbox (47.5868pt too wide) in paragraph at lines 122--132
  []
 
 
-Overfull \hbox (28.22008pt too wide) in paragraph at lines 136--137
-\OT1/cmr/m/n/10 mat POP-U-LA-TION[]EXPERIMENTER[]DATEBGN[]DATEEND[]TRACKERID 
+Overfull \hbox (101.68127pt too wide) in paragraph at lines 136--137
+\OT1/cmr/m/n/10 mat POP-U-LA-TION[]EXPERIMENTER[]PARTICIPANT[]DATEBGN[]DATEEND[
+]TRACKERID 
  []
 
 [5] [6] [7] [8] [9]
@@ -178,7 +179,7 @@ Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Fil
 es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files 
 (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x
 86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Field_Protocol_2015.pdf (9 pages, 130491 bytes).
+Output written on Field_Protocol_2015.pdf (9 pages, 130621 bytes).
 PDF statistics:
  64 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
